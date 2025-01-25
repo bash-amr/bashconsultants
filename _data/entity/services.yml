@@ -1,0 +1,49 @@
+- title: Cloud Architecture
+  description: The ubiquitous "Cloud" world that we're experiencing has set a new norm for computing but left many businesses unsure about how to transition their operations. While cloud computing is not new, it requires massive data centers that were previously only available to tech giants. These days,  using cloud technologies is the new standard, and resources are available to meet a business's needs without any large capital investments.
+  scope: We exclusively work with cloud technologies and have expertise in the 3 major providers (AWS, GCP, and Azure) to support your computing needs. In addition, we specialize in configurable eCommerce applications with integrations to accounting systems, such as QuickBooks.
+  offer: The sky is no limit for cloud services, and we are here to help start-ups and small business looking to extend or incorporate these technologies into their operating model.
+  image: /assets/images/cld-arch-diagram.png
+  systems:
+    - AWS
+    - GCP
+    - Azure
+  service:
+    - Infrastructure planning, design, and implementation
+    - Enterprise Software Suite configuration and implementation
+    - Software Development and API implementation
+    - System and database migrations
+    - Database and Data Warehouse design
+    - Business Intelligence and Reporting
+- title: ERP Consulting
+  description: For larger organizations where those 3 letters "E-R-P" give you the chills, fear no more. We have extensive experience and understanding of these behemoth applications and can assist in the rigorous quest to harmonize the system. Our team has been through many of these journeys, implementing various systems (QAD, Infor, Oracle, etc.), in both technical and functional areas, primarily in the manufacturing industry.
+  scope: 
+  offer: 
+  image: /assets/images/erd.png
+  systems:
+   - QAD Enterprise Edition versions 2014, 2016, 2018
+   - Mfg/Pro versions eB2, Eb2.1
+   - Infor ERP LN (formally known and Baan IV)
+   - Infor CloudSuite Industrial ( Formaly known as SyteLine) versions 8 & 9
+   - Hyperion Financial Management Version 11
+   - Oracle PeopleSoft Financials version 9.2
+- title: Accounting Information Systems
+  description: Every organization needs a strong financial backbone that supports both sustainability and feasibility. A well designed/robust accounting system is essential to this goal.  Thanks to Enron, the accounting/finance warriors among us need to build failsafe mechanisms or suffer the wrath of those nosey auditors. Achieving compliance  is not a "one size fits all" solution and depends on the industry and accounting methods. As we further progress toward a global standard, enterprise wide financial systems will be crucial to meet compliance and translate financial information effectively and accurately
+  scope: Accounting Information Systems (AIS) are a critical component of any business. We have extensive experience in the design, implementation, and support of these systems. Our team has worked with a variety of systems, including QuickBooks, Sage, and Microsoft Dynamics, and can help you select the right system for your business.
+  offer: Throughout my career, I have experienced the evolution of  accounting/finance from physical bookkeeping methods to complex Excel models that process datasets at a rate of trillions calculations per second to the modern multi-dimensional data warehouses that use  analytical reporting tools. I know how hard it has been to let go of the Excel models we so proudly built.  Luckily, the flexibility of Excel  to embed new database technologies directly in the spreadsheet is why is has remained the most common "ERP" system  in the business world. We understand the complexities of financial management and the available tools and functionalities now available in Excel. Thus, we aim to advance your organization's capabilities by leveraging and extending  your current Excel models' functionalities.
+  image: /assets/images/spreadsheet.jpg
+  systems:
+    - QuickBooks
+    - QAD
+    - Infor
+    - Square
+  service:
+    - System selection and implementation
+    - System configuration and customization
+    - System integration
+    - Training and support
+    - System configurations
+    - AP automation solutions
+    - Chart of account design, conversion, or migration
+    - Financial modeling
+    - Standard costing management
+    - Banking interfaces

@@ -245,9 +245,9 @@ Reach out to us to learn more about how our services can be tailored to meet you
 **BASH Consulting**
 Denver, Colorado
 
-**Email:** info@bashconsulting.com  
+**Email:** info@bash-365.com  
 **Phone:** (XXX) XXX-XXXX  
-**Website:** www.bashconsulting.com
+**Website:** www.bash-365.com
 
 ---
 

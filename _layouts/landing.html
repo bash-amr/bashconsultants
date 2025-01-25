@@ -1,0 +1,192 @@
+---
+layout: root
+---
+
+  <!-- Left Sidebar for Outline - Offcanvas -->
+  <!-- _includes/sidebar-left.html  -->
+  <div class="offcanvas">
+    {% include sidebar-left.html %}
+  </div>
+  
+  <div class="container-fluid pt-5">
+
+    <!-- particles.js -->
+    <div id="particles-js" class=" z-n1 position-absolute"></div>
+
+    <!-- Centered Intro - Logo and Site Description -->
+    <div class="container px-4 py-5">
+      <h1 class="visually-hidden">{{site.title}}</h1>
+      <div class="text-center">
+        <img class="d-block mx-auto mb-4" src="{{site.logo}}" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis">{{ site.title }}</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">{{ site.description}} </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="/about" class="btn btn-outline-secondary btn-lg px-4">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Page Title, Entity Info, and mission -->
+
+    <div class=" border-bottom">
+      <h1 class="text-center fs-6 text-uppercase">{{ page.title }}</h1>
+      <div class="col-lg-10 mx-auto">
+        <p class="lead fs-1 mb-4 text-center text-monospace text-body-emphasis">{{site.data.entity.info.goal}}</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <a href="/contact" class="btn btn-outline-primary btn-lg px-4">Contact Us</a>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 60vh;">
+        <div class="container px-5 text-center">
+          <img src="/assets/images/cloud-computing-2001090.jpg" class="img-fluid just border rounded-3 shadow-lg mb-4" alt="Logo" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+<!-- About Intro -->
+
+    <div class="container col-xxl-12 px-4 py-5 border-bottom">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="/assets/brand/business-logo2x.png" class="d-block mx-auto img-fluid text-center" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+        <div class="col-lg-6">
+          <p class="label">About</p>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">What we do</h1>
+          <p class="lead">{{ site.data.entity.info.about-company }}</p>
+          <p class="lead">{{ site.data.entity.info.about-company-2 }}</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="/contact" class="btn btn-outline-secondary btn-lg px-4">Connect with us</a>
+         </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Founder Intro -->
+
+    <div class="container col-xxl-12 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+        <div class="col-lg-6">
+          <p class="label">"Team"</p>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Amr</h1>
+          <p class="label">Solution Architect</p>
+          <p class="lead">{{ site.data.entity.info.about-founder-purpose }}</p>
+          <p class="lead">{{ site.data.entity.info.about-founder-location }}</p>
+          <p class="lead">{{ site.data.entity.info.about-founder-personal }}</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="/contact" class="btn btn-outline-secondary btn-lg px-4">LinkedIn</a>
+            <a href="/contact" class="btn btn-outline-secondary btn-lg px-4">Github</a>
+          </div>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="/assets/images/Amr-Headshot_v3.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+      </div>
+    </div>
+
+<!-- Services -->
+
+{% for service in site.data.entity.services %}
+<div class="container my-5">
+  <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    <div class="col-6 p-3 p-lg-5 pt-lg-3">
+      <h1 class="display-4 fw-bold lh-1 text-body-emphasis">{{ service.title }}</h1>
+      <p class="lead">{{ service.description }}</p>
+      <ul>
+        {% for sys in service.systems %}
+        <li>{{ sys }}</li>
+        {% endfor %}
+      </ul>
+      <ul>
+        {% for item in service.service %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+      </div>
+    </div>
+    <div class="col-6 p-0 overflow-hidden shadow-lg">
+      <img class="rounded-lg-3" src="{{ service.image }}" alt="" width="720">
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+  {{ content }}
+  
+<!-- Mission Quote -->
+
+  <div class="container-fluid bg-dark text-secondary px-4 py-5 text-left">
+    <div class="container-lg ">
+
+      <h2 class="display-5 text-white">Mission</h1>
+        <blockquote class="blockquote">
+            <p class="fs-5 ">{{ site.data.entity.info.mission }}</p>
+        </blockquote>
+
+        <p>
+          {{ site.data.entity.info.mission-approach | newline_to_br }}
+        </p>
+
+        <blockquote class="blockquote">
+          <p class="fs-5">{{ site.data.entity.info.mission-inspiration }}</p>
+      </blockquote>
+
+        
+      </div>
+    </div>
+
+</div>
+
+<!-- Email Now -->
+
+  <div class=" px-4 py-5 text-center border-bottom">
+    <div class="py-5">
+      <p class="display-6 fw-bold">{{ site.data.entity.info.contact-tagline }}</p>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">{{ site.data.entity.info.contact-instructions }}</p>
+        <p class="fs-5 mb-4 fw-bold">{{ site.data.entity.info.contact-email }}</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="mailto:{{ site.contact-email }}?subject=Consulting%20Inquiry" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Email Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+    
+<div class="container col-xl-10 col-xxl-12 px-4 py-5">
+  <div class="row align-items-center g-lg-5 py-5">
+    <div class="col-lg-7 text-center text-lg-start">
+      <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Want to stay posted with our latest news?</h1>
+      <p class="col-lg-10 fs-4">Sign up to our newsletter to receive our latest news and updates.</p>
+    </div>
+    <div class="col-md-10 mx-auto col-lg-5">
+      <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="subscribe"> Send me news and updates
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Subscribe</button>
+        <hr class="my-4">
+        <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Features -->
+    <!-- particles.js -->
+    <script src="/assets/js/particles-source.js"></script>
+    <script src="/assets/js/particles.js"></script>
