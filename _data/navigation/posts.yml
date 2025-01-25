@@ -1,19 +1,15 @@
-- icon: world
-  url: /posts/world/
-  title: World
-- title: Technology
+- title: Muse
+  url: /posts/muses/
+  icon: globe
+- title: Tech News
+  url: /posts/tech
   icon: tech
-  url: /posts/tech/
-- title: Business
+- title: Corporate News
+  url: /posts/corp
   icon: cash
-  url: /posts/business/
-- title: Science
-  icon: flask
-  url: /posts/science/
-- title: Health
+- title: ERParody 
+  url: /posts/erp
   icon: heart
-  url: /posts/health/
-- title: Politics
-  icon: politics
-  url: /posts/politics/
-
+- title: index
+  url: /pages
+  icon: home
