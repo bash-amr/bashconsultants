@@ -1,0 +1,48 @@
+- title: Services
+  url: /services/
+  sublinks:
+    - title: Cloud Architecture
+      url: /services/cloud/
+    - title: ERP Consulting
+      url: /services/erp/
+    - title: Finance Tech
+      url: /services/fintech/
+    - title: Data and BI
+      url: /services/data/
+    - title: Software Development
+      url: /services/dev/
+    - title: IT Strategy
+      url: /services/strat/
+
+- title: Blog
+  url: /posts
+  sublinks:
+    - title: Muses
+      url: /posts/muses
+    - title: Corporate News
+      url: /posts/corp
+    - title: Tech News
+      url: /posts/tech
+    - title: ERParody 
+      url: /posts/erp
+    - title: index
+      url: /pages
+
+# - title: Docs
+#   url: /docs/
+#   sublinks:
+#     - title: Jekyll
+#       url: /docs/jekyll
+
+- title: About
+  url: /about/
+  sublinks:
+    - title: Organization
+      url: /about/org
+    - title: Portfolio
+      url: /about/portfolio
+    - title: Sitemap
+      url: /about/sitemap
+
+- title: Contact
+  url: /contact/

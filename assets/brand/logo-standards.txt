@@ -1,0 +1,29 @@
+Favicon sizes for a website
+A favicon is a small icon that features your corporate logo, the first letter in your brand name, or image that identifies your business or website.
+You can employ favicons in the following sizes:
+– 16 px x 16 px
+– 32 px x 32 px
+– 48 px x 48 px
+
+Logo sizes for your website
+Once your design (PNG, transparent background) is ready, you need to upload it to your website.
+For the most part, 250 px (width) x 100 px (height) are the optimal logo dimensions for a web page. If, however, you need to customize your logo size, we know how to do it!
+
+Below we’ve listed a few logo dimensions for the two most common layouts.
+
+For horizontal layout:
+
+– 250 px x 150 px
+– 350 px x 75 px
+– 400 px x 100 px
+
+For vertical (square) layout:
+
+– 160 px x 160 px
+From this article, you’ll find out how to craft a logo for your blog and add it to your site.
+
+Twitter:
+
+Image posts: 1024 x 675 px
+Cover image: 1500 х 500 px
+Profile image: 400 x 400 p
