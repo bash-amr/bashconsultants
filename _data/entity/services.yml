@@ -3,6 +3,7 @@
   scope: We exclusively work with cloud technologies and have expertise in the 3 major providers (AWS, GCP, and Azure) to support your computing needs. In addition, we specialize in configurable eCommerce applications with integrations to accounting systems, such as QuickBooks.
   offer: The sky is no limit for cloud services, and we are here to help start-ups and small business looking to extend or incorporate these technologies into their operating model.
   image: /assets/images/cld-arch-diagram.png
+  url: /services/cloud/
   systems:
     - AWS
     - GCP
@@ -19,6 +20,7 @@
   scope: 
   offer: 
   image: /assets/images/erd.png
+  url: /services/erp/
   systems:
    - QAD Enterprise Edition versions 2014, 2016, 2018
    - Mfg/Pro versions eB2, Eb2.1
@@ -31,6 +33,7 @@
   scope: Accounting Information Systems (AIS) are a critical component of any business. We have extensive experience in the design, implementation, and support of these systems. Our team has worked with a variety of systems, including QuickBooks, Sage, and Microsoft Dynamics, and can help you select the right system for your business.
   offer: Throughout my career, I have experienced the evolution of  accounting/finance from physical bookkeeping methods to complex Excel models that process datasets at a rate of trillions calculations per second to the modern multi-dimensional data warehouses that use  analytical reporting tools. I know how hard it has been to let go of the Excel models we so proudly built.  Luckily, the flexibility of Excel  to embed new database technologies directly in the spreadsheet is why is has remained the most common "ERP" system  in the business world. We understand the complexities of financial management and the available tools and functionalities now available in Excel. Thus, we aim to advance your organization's capabilities by leveraging and extending  your current Excel models' functionalities.
   image: /assets/images/spreadsheet.jpg
+  url: /services/fintech/
   systems:
     - QuickBooks
     - QAD

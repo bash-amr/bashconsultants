@@ -81,8 +81,8 @@ layout: root
             <a href="/contact" class="btn btn-outline-secondary btn-lg px-4">Github</a>
           </div>
         </div>
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/assets/images/Amr-Headshot_v3.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <div class="col-10 col-sm-8 col-lg-6 mx-auto">
+          <img src="/assets/images/Amr-Headshot_v3.jpg" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
       </div>
     </div>
@@ -90,9 +90,9 @@ layout: root
 <!-- Services -->
 
 {% for service in site.data.entity.services %}
-<div class="container my-5">
+<div class="container-xl my-5">
   <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-    <div class="col-6 p-3 p-lg-5 pt-lg-3">
+    <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
       <h1 class="display-4 fw-bold lh-1 text-body-emphasis">{{ service.title }}</h1>
       <p class="lead">{{ service.description }}</p>
       <ul>
@@ -105,13 +105,12 @@ layout: root
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-      </div>
     </div>
-    <div class="col-6 p-0 overflow-hidden shadow-lg">
+    <div class="container col-lg-6 p-0 overflow-hidden shadow-lg">
       <img class="rounded-lg-3" src="{{ service.image }}" alt="" width="720">
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center py-3">
+      <a href="{{ service.url }}" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">More Info</a>
     </div>
   </div>
 </div>
