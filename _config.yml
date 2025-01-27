@@ -44,14 +44,15 @@ title                    : &title "BASH Consultants"
 title_url                : "/"
 title_icon               : "globe"
 subtitle                 : "Bourne Again Solutions Hero"
-subtitle_url             : "bash-365.com" # set to localhost to develop locally
+subtitle_url             : "localhost" # set to localhost to develop locally
 subtitle_icon            : "code"
+dev_mode                 : false
 title_separator          : "|" # Appears in the web browser tab name
 domain                   : &domain "github"
 domain_ext               : &domain_ext "io"
 baseurl                  : &baseurl "" # the subpath of your site, e.g. /blog - Use this if you want this whole repo to be a domain branch
 url_test                 : &url_test [ 'https', '://', *github_user, '.', *domain, '.', *domain_ext ] # the base hostname & protocol for your site, e.g. http://example.com
-url                      : &url https://bashconsultants.com
+url                      : &url https://bash-365.com
 public_folder            : "/assets"
 port                     : 4002 # Jekyll Serve Dev port
 dg_port                  : 4001 # TODO: Doppelganger site. Use this if you want to switch between parallel deployments
@@ -60,8 +61,8 @@ og_image                 : [*baseurl, '/assets/images/office-594119.png']
 ### Owner Information -------------------------------------------------------------
 
 name                     : &name "Amr"
-email                    : "amr@bashconsultants.com"
-contact-email            : "info@bashconsultants.com"
+email                    : "amr@bash-365.com"
+contact-email            : "info@bash-365.com"
 description              : >- # this `->` means to ignore newlines until the next variable
   "Modern day IT Solutions"
 level                    : 'Jedi'
@@ -121,15 +122,23 @@ links:
   - label: "Portfolio"
     url: [ 'https://', *github_user, '.github.io/']
     icon: "bi-link"
-  - label: "Twitter"
-    icon: "bi-twitter"
-    url: "https://twitter.com/bamr87"
-  - label: "GitHub"
+  - label: "Github"
     icon: "bi-github"
     url: [ 'https://github.com/' , *github_user ]
-  - label: "Instagram"
-    icon: "bi-instagram"
-    url: "https://instagram.com/bamr42"
+  - label: "LinkedIn"
+    icon: "bi-linkedin"
+    url: "https://linkedin.com/in/amrabdel"
+
+socials:
+  - label: "Portfolio"
+    url: [ 'https://', *github_user, '.github.io/']
+    icon: "bi-link"
+  - label: "Github"
+    icon: "bi-github"
+    url: [ 'https://github.com/' , *github_user ]
+  - label: "LinkedIn"
+    icon: "bi-linkedin"
+    url: "https://linkedin.com/in/amrabdel"
 
 youtube:
   - label: "YouTube"
@@ -155,9 +164,6 @@ powered_by:
     version: 
     url: "https://algolia.com/"
     icon: "bi-search"
-  - name: "JQuery"
-    url: "https://jquery.com/"
-    icon: "bi-filetype-js"
   - name: "MathJax"
     version: "1.0"
     url: "https://www.mathjax.org/"
@@ -169,7 +175,31 @@ powered_by:
   - name: "docker"
     version: "20.10.8"
     url: "https://www.docker.com/"
-    icon: "bi-docker"
+    icon: "bi-box-seam"
+  - name: "Azure"
+    version: "latest"
+    url: "https://www.azure.com/"
+    icon: "bi-cloud"
+  - name: "Python"
+    version: "3.13"
+    url: "https://www.python.com/"
+    icon: "bi-filetype-py"
+  - name: "HTML"
+    version: "5"
+    url: "https://en.wikipedia.org/wiki/HTML5/"
+    icon: "bi-filetype-html"
+  - name: "CSS"
+    version: "4"
+    url: "https://en.wikipedia.org/wiki/CSS/"
+    icon: "bi-filetype-css"
+  - name: "JavaScript"
+    version: "ES14"
+    url: "https://en.wikipedia.org/wiki/JavaScript/"
+    icon: "bi-filetype-js"
+  - name: "JQuery"
+    url: "https://jquery.com/"
+    icon: "bi-filetype-js"
+
 
 ### Plugins 
 # https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins
