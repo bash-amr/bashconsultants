@@ -8,10 +8,10 @@ layout: root
     {% include sidebar-left.html %}
   </div>
   
-  <div class="container-fluid pt-5">
+  <div class="container pt-5">
 
     <!-- particles.js -->
-    <div id="particles-js" class=" z-n1 position-absolute"></div>
+    <div id="particles-js" class="container z-n1 position-absolute"></div>
 
     <!-- Centered Intro - Logo and Site Description -->
     <div class="container px-4 py-5">
@@ -76,13 +76,15 @@ layout: root
           <p class="lead">{{ site.data.entity.info.about-founder-purpose }}</p>
           <p class="lead">{{ site.data.entity.info.about-founder-location }}</p>
           <p class="lead">{{ site.data.entity.info.about-founder-personal }}</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a href="/contact" class="btn btn-outline-secondary btn-lg px-4">LinkedIn</a>
-            <a href="/contact" class="btn btn-outline-secondary btn-lg px-4">Github</a>
-          </div>
         </div>
         <div class="col-10 col-sm-8 col-lg-6 mx-auto">
           <img src="/assets/images/Amr-Headshot_v3.jpg" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          {% assign linkedin_link = site.links | where: "label", "LinkedIn" | first %}
+          <a href="{{ linkedin_link.url }}" class="btn btn-outline-secondary btn-lg px-4">LinkedIn</a>
+          {% assign github_link = site.links | where: "label", "Github" | first %}
+          <a href="{{ github_link.url }}" class="btn btn-outline-secondary btn-lg px-4">Github</a>
         </div>
       </div>
     </div>
