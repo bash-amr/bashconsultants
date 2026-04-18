@@ -40,9 +40,9 @@ At BASH Consulting, we don't just provide IT solutions—we build partnerships t
 **BASH Consulting LLC**
 
 **Location:** Denver, Colorado  
-**Email:** info@bash-365.com  
+**Email:** info@bashconsultants.com  
 **Phone:** (720) 352-4641  
-**Website:** www.bash-365.com  
+**Website:** www.bashconsultants.com  
 
 ---
 
