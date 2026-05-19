@@ -1,47 +1,90 @@
-<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+<!-- Workspace-specific instructions for GitHub Copilot.
+     See https://code.visualstudio.com/docs/copilot/copilot-customization -->
 
-## Project: Prompt Orchestrator VS Code Extension
+# BASH Consultants — Copilot Instructions
 
-This workspace contains a VS Code extension for BASH Consultants that orchestrates AI agent workflows using structured prompts.
+## Repository Overview
 
-### Extension Overview
-- **Name**: Prompt Orchestrator
-- **Purpose**: Enable developers to run AI-assisted workflows using prompt files from `.github/prompts/`
-- **Key Features**:
-  - Discover and load prompt templates
-  - Execute prompts via VS Code commands
-  - Integrate with VS Code Chat API
-  - Support workflow pipelines
-  - Sidebar view for browsing prompts
+Dual-purpose repository:
 
-### Development Guidelines
-- Use TypeScript for all source code
-- Follow VS Code extension best practices
-- Implement proper error handling
-- Use VS Code API for file system, commands, and chat integration
-- Support YAML frontmatter in prompt markdown files
+1. **Jekyll site** (root) — Marketing & content site for bashconsultants.com (Denver IT consulting). Uses the `jekyll-theme-zer0` remote theme. Deployed to GitHub Pages on push to `main`. CNAME: `bashconsultants.com`.
+2. **VS Code extension** (`extension/`) — "Prompt Orchestrator" — runs AI workflows from `.github/prompts/`. TypeScript, bundled with esbuild.
 
-### Project Structure
+Treat each sub-project independently; do not mix Jekyll and extension concerns in a single commit.
+
+## Tech Stack
+
+| Sub-project | Stack |
+|---|---|
+| Jekyll site | Ruby 3.x, Jekyll, `jekyll-theme-zer0` (remote theme), Bootstrap 5, Docker-first dev (`docker-compose up`) |
+| Extension | TypeScript, VS Code Extension API, esbuild, ESLint |
+
+## Project Structure
+
 ```
-prompt-orchestrator/
-├── src/
-│   ├── extension.ts          # Main extension entry point
-│   ├── promptManager.ts      # Prompt discovery and loading
-│   ├── commandProvider.ts    # Command registration
-│   ├── chatIntegration.ts    # VS Code Chat API integration
-│   ├── workflowEngine.ts     # Workflow execution
-│   └── views/
-│       └── promptExplorer.ts # Sidebar tree view
-├── package.json              # Extension manifest
-└── tsconfig.json             # TypeScript configuration
+bashconsultants/
+├── _config.yml, _config_dev.yml, _config.azure.yml   # Jekyll configs (dev overrides + Azure)
+├── Gemfile, Gemfile.azure                            # Ruby deps
+├── docker-compose.yml, Dockerfile                    # Local Jekyll dev
+├── _data/, _includes/, _layouts/, _plugins/          # Jekyll theme overrides
+├── pages/
+│   ├── _posts/           # Blog posts (collection)
+│   ├── _services/        # Service offerings
+│   ├── _quests/          # Gamified learning (mirrors it-journey pattern)
+│   ├── _docs/, _notes/, _quickstart/, _about/
+├── assets/               # Static assets
+├── scripts/              # Automation
+├── extension/            # VS Code "Prompt Orchestrator" extension (self-contained)
+└── .github/
+    ├── FRONTMATTER.md            # Canonical .prompt.md / .instructions.md schema
+    ├── copilot-instructions.md   # This file
+    ├── prompts/                  # Reusable agent prompts (.prompt.md)
+    └── workflows/                # GitHub Actions
 ```
 
-### Key VS Code APIs to Use
-- `vscode.workspace.fs` - File system access
-- `vscode.commands.registerCommand` - Command registration
-- `vscode.chat.*` - Chat integration
-- `vscode.window.createTreeView` - Sidebar views
-- `vscode.workspace.getConfiguration` - Extension settings
+## Essential Commands
+
+```bash
+# Jekyll site
+docker-compose up                              # Start dev server (recommended)
+docker-compose exec jekyll bundle exec jekyll build --config '_config.yml,_config_dev.yml'
+docker-compose down
+
+# Extension
+cd extension && npm install && npm run compile
+cd extension && npm run lint
+cd extension && npm run watch                  # esbuild watch mode
+```
+
+## Frontmatter Standards
+
+All `.prompt.md` and `.instructions.md` files under `.github/` must follow the canonical schema in `.github/FRONTMATTER.md`:
+
+- `.prompt.md` → `mode: agent` + `description` + `date` + `lastmod`
+- `.instructions.md` → `applyTo` + `description` + `date` + `lastmod`
+
+Jekyll content under `pages/` follows standard Jekyll frontmatter: `title`, `description`, `date`, `categories`, `tags`, `layout`.
+
+## Workflow Conventions
+
+- **Direct-to-main**: No PR gate; commit and push to `main` triggers GitHub Pages deploy. Use `/commit-publish` prompt for the full review→validate→commit→push pipeline.
+- **Conventional commits**: `<type>(<scope>): <subject>` where type ∈ `feat fix docs refactor chore ci` and scope ∈ `posts pages services config extension prompts docs`.
+- **CHANGELOG**: Maintain `[Unreleased]` section at top of `CHANGELOG.md`.
+- **Never commit**: `_site/`, `node_modules/`, `vendor/`, `Gemfile.lock` if `.gitignore`'d.
+
+## Editorial Voice (for content under `pages/`)
+
+- Audience: SMB owners and operators evaluating IT consulting.
+- Tone: Professional, plain-language, ROI-focused; avoid jargon without definition.
+- Always tie technical content back to business outcomes.
+
+## Hard Rules
+
+- Don't restructure the Jekyll theme — it's a remote theme; override via `_includes/`, `_layouts/`, `_sass/` locally.
+- Don't bump theme version in `Gemfile` without testing the build.
+- Don't refactor `extension/` source unless explicitly asked.
+- Don't generate or guess external URLs.
 
 ---
-**Status**: Setting up VS Code extension project structure
+
+**Related:** `AGENTS.md` (cross-tool entry point) · `.github/FRONTMATTER.md` · `.github/prompts/commit-publish.prompt.md`

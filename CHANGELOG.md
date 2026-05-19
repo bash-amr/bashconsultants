@@ -7,10 +7,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 ### Added
+- **AGENTS.md** — Cross-tool entry point for AI coding agents (Copilot, Codex, Cursor, Aider, Claude Code). Points to canonical guidance.
+- **`.github/prompts/commit-publish.prompt.md`** — Standard commit + push + deploy workflow for the direct-to-main publishing model.
 - **Canonical frontmatter reference** — `.github/FRONTMATTER.md` documents the required schema for `.prompt.md` and `.instructions.md` files.
 
 ### Changed
-- **`.github/prompts/` slashed** — All `.prompt.md` files compressed ~70%: removed generic AI-padding, duplicate examples, and motivational filler; kept only actionable rules and one canonical example per concept.
+- **`.github/copilot-instructions.md`** — Rewritten to reflect the actual dual-purpose repo (Jekyll site + `extension/` sub-project). Previous content described only the extension and was stale.
+- **`.github/prompts/` frontmatter normalized** — All `.prompt.md` files updated to canonical `mode: agent` + `description` + `date` + `lastmod` schema. Body content already concise (≤100 lines per file); no further compression needed.
 
 ### Removed
 - **`.github/prompts/docs.prompt.md`** — superseded by `documentation.prompt.md`.
