@@ -7,6 +7,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 ### Added
+- **`.github/instructions/`** — Five file-scoped instruction files for AI agents:
+  - `posts.instructions.md` (applyTo `pages/_posts/**/*.md`) — blog post standards
+  - `services.instructions.md` (applyTo `pages/_services/**/*.md`) — service page standards + conversion structure
+  - `jekyll-theme.instructions.md` (applyTo theme override paths) — local override rules for the remote theme
+  - `extension.instructions.md` (applyTo `extension/**`) — VS Code Prompt Orchestrator dev rules
+  - `prompts.instructions.md` (applyTo `.github/{prompts,instructions}/**`) — schema + slash-hard body style
 - **AGENTS.md** — Cross-tool entry point for AI coding agents (Copilot, Codex, Cursor, Aider, Claude Code). Points to canonical guidance.
 - **`.github/prompts/commit-publish.prompt.md`** — Standard commit + push + deploy workflow for the direct-to-main publishing model.
 - **Canonical frontmatter reference** — `.github/FRONTMATTER.md` documents the required schema for `.prompt.md` and `.instructions.md` files.

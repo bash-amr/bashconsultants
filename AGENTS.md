@@ -20,8 +20,19 @@ For the full overview see [`.github/copilot-instructions.md`](./.github/copilot-
 | Cross-tool entry | `AGENTS.md` (this file) | Always first |
 | Project Copilot instructions | `.github/copilot-instructions.md` | Always second |
 | Canonical frontmatter schema | `.github/FRONTMATTER.md` | When editing any `.prompt.md` or `.instructions.md` |
+| File-scoped instructions | `.github/instructions/*.instructions.md` | Auto-loaded when files match `applyTo` |
 | Reusable prompts | `.github/prompts/*.prompt.md` | When asked to run a multi-step task that matches a prompt |
 | Workflows | `.github/workflows/` | When changing CI |
+
+### File-scoped instruction map
+
+| Editing files in… | Read |
+|---|---|
+| `pages/_posts/**` | `.github/instructions/posts.instructions.md` |
+| `pages/_services/**` | `.github/instructions/services.instructions.md` |
+| `_includes/**`, `_layouts/**`, `_sass/**`, `_data/**`, `_plugins/**`, `_config*.yml`, `Gemfile*` | `.github/instructions/jekyll-theme.instructions.md` |
+| `extension/**` | `.github/instructions/extension.instructions.md` |
+| `.github/prompts/**`, `.github/instructions/**` | `.github/instructions/prompts.instructions.md` |
 
 ## Reusable Prompts
 

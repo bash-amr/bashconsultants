@@ -87,4 +87,4 @@ Jekyll content under `pages/` follows standard Jekyll frontmatter: `title`, `des
 
 ---
 
-**Related:** `AGENTS.md` (cross-tool entry point) · `.github/FRONTMATTER.md` · `.github/prompts/commit-publish.prompt.md`
+**Related:** `AGENTS.md` (cross-tool entry point) · `.github/FRONTMATTER.md` · `.github/prompts/commit-publish.prompt.md` · `.github/instructions/` (file-scoped rules)
