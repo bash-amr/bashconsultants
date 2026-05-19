@@ -7,9 +7,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 ### Added
-- **`.github/instructions/`** — Five file-scoped instruction files for AI agents:
-  - `posts.instructions.md` (applyTo `pages/_posts/**/*.md`) — blog post standards
-  - `services.instructions.md` (applyTo `pages/_services/**/*.md`) — service page standards + conversion structure
+- **`.github/instructions/`** — Six file-scoped instruction files for AI agents:
+  - `content-style.instructions.md` (applyTo `pages/**`, `index.md`, `about.md`, `contact.md`) — shared editorial voice, audience profile (Denver SMBs 5–200 employees), target-industry table, banned phrases, SEO + accessibility rules
+  - `posts.instructions.md` (applyTo `pages/_posts/**/*.md`) — blog post structure + subfolder routing (corp/erp/muses/tech)
+  - `services.instructions.md` (applyTo `pages/_services/**/*.md`) — service-page conversion structure + industry-fit naming
   - `jekyll-theme.instructions.md` (applyTo theme override paths) — local override rules for the remote theme
   - `extension.instructions.md` (applyTo `extension/**`) — VS Code Prompt Orchestrator dev rules
   - `prompts.instructions.md` (applyTo `.github/{prompts,instructions}/**`) — schema + slash-hard body style

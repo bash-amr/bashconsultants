@@ -28,8 +28,9 @@ For the full overview see [`.github/copilot-instructions.md`](./.github/copilot-
 
 | Editing files in… | Read |
 |---|---|
-| `pages/_posts/**` | `.github/instructions/posts.instructions.md` |
-| `pages/_services/**` | `.github/instructions/services.instructions.md` |
+| Any customer-facing page (`pages/**`, `index.md`, `about.md`, `contact.md`) | `.github/instructions/content-style.instructions.md` |
+| `pages/_posts/**` | `.github/instructions/posts.instructions.md` (+ content-style) |
+| `pages/_services/**` | `.github/instructions/services.instructions.md` (+ content-style) |
 | `_includes/**`, `_layouts/**`, `_sass/**`, `_data/**`, `_plugins/**`, `_config*.yml`, `Gemfile*` | `.github/instructions/jekyll-theme.instructions.md` |
 | `extension/**` | `.github/instructions/extension.instructions.md` |
 | `.github/prompts/**`, `.github/instructions/**` | `.github/instructions/prompts.instructions.md` |

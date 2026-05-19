@@ -9,6 +9,19 @@ lastmod: 2026-05-18T12:00:00.000Z
 
 Posts live in `pages/_posts/` and are organized by subfolder (`corp/`, `erp/`, `muses/`, `tech/`). They render via the `article` or `news` layout.
 
+> **Voice, audience, banned phrases, and universal checklist** → see [`content-style.instructions.md`](content-style.instructions.md). This file covers post-specific rules only.
+
+## Subfolder routing
+
+| Subfolder | Topic | Typical reader |
+|---|---|---|
+| `corp/` | Corporate IT, governance, vendor strategy | SMB owner / CFO |
+| `erp/` | ERP, financial systems, QuickBooks-to-X migrations | Controller, operations manager |
+| `muses/` | Opinion, industry commentary, longer-form | Mixed |
+| `tech/` | How-tos, vendor walk-throughs, architecture notes | In-house IT lead |
+
+If a post doesn't fit, default to `tech/` and revisit at next site audit.
+
 ## Required frontmatter
 
 ```yaml
@@ -30,26 +43,29 @@ preview: /images/previews/<slug>.png
 
 `YYYY-MM-DD-kebab-case-title.md` under the appropriate subfolder. Date in filename must match `date:` in frontmatter.
 
-## Voice and content rules
+## Post-specific structure
 
-- **Audience:** SMB owners, operators, and IT decision-makers in the Denver metro.
-- **Lead with the business outcome**, follow with the technical mechanism.
-- **No jargon without definition.** First use of an acronym: spell it out.
-- **Cite costs and time savings concretely** when the topic warrants (e.g., "cuts month-end close from 5 days to 2"), never invent numbers.
-- **No marketing fluff.** Skip phrases like "in today's fast-paced world", "leverage synergies", "unlock value".
-- **One H1 only** (rendered from `title`). Body starts at H2.
+A typical post should follow this skeleton (skip sections that don't apply, don't pad):
+
+1. **Hook** — 1–2 sentences naming the problem in the reader's language
+2. **Why it matters now** — cost, risk, or opportunity, with a real number when you have one
+3. **What we'd actually do** — the recommendation, in plain terms
+4. **How it plays out** — phased approach, timeline ranges, what the reader's team has to do
+5. **Watch-outs** — the 2–3 things that go wrong in practice
+6. **Next step** — link to the relevant `/services/...` page or `/contact/`
 
 ## Hard don'ts
 
 - Don't commit posts with `draft: true` to `main` — Pages will publish them.
-- Don't reference internal URLs that don't exist; verify with `docker-compose exec jekyll bundle exec jekyll build`.
+- Don't reference internal URLs that don't exist; verify with the local build.
 - Don't include literal API keys, even as examples — use `${env:VAR}` placeholders.
 - Don't bump `date:` on edits — bump `lastmod:` instead.
+- Don't write "thought leadership" posts with no recommendation or next step.
 
 ## Before commit
 
-- [ ] Frontmatter has all required fields
-- [ ] `description` is 120–155 chars
-- [ ] `categories` and `tags` are YAML lists
+- [ ] Subfolder matches topic table above
+- [ ] Universal checklist in `content-style.instructions.md` passes
+- [ ] Post links to at least one service page or `/contact/`
 - [ ] `lastmod` updated
 - [ ] Build passes locally
