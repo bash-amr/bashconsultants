@@ -1,5 +1,8 @@
 ---
-agent: agent
+mode: agent
+description: "Create professional README, API, and user docs that are clear, comprehensive, and audience-aware"
+date: 2026-05-18T12:00:00.000Z
+lastmod: 2026-05-18T12:00:00.000Z
 ---
 Act as a Technical Writer and Documentation Specialist with expertise in creating clear, comprehensive, and user-friendly technical documentation for software projects.
 

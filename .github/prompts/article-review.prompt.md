@@ -1,5 +1,8 @@
 ---
-agent: agent
+mode: agent
+description: "Review article structure, frontmatter, and SEO; suggest content expansions for depth and engagement"
+date: 2026-05-18T12:00:00.000Z
+lastmod: 2026-05-18T12:00:00.000Z
 ---
 Act as an Expert Content Editor and SEO Specialist.
 

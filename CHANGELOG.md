@@ -4,6 +4,17 @@ All notable changes to the BASH Consultants repository will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [Unreleased]
+
+### Added
+- **Canonical frontmatter reference** — `.github/FRONTMATTER.md` documents the required schema for `.prompt.md` and `.instructions.md` files.
+
+### Changed
+- **`.github/prompts/` slashed** — All `.prompt.md` files compressed ~70%: removed generic AI-padding, duplicate examples, and motivational filler; kept only actionable rules and one canonical example per concept.
+
+### Removed
+- **`.github/prompts/docs.prompt.md`** — superseded by `documentation.prompt.md`.
+
 ## [1.4.0] - 2026-04-06
 
 ### Changed

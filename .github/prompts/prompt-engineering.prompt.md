@@ -1,5 +1,8 @@
 ---
-agent: agent
+mode: agent
+description: "Craft structured, high-quality AI prompts (role, task, constraints, output format) for dev workflows"
+date: 2026-05-18T12:00:00.000Z
+lastmod: 2026-05-18T12:00:00.000Z
 ---
 Act as an expert Prompt Engineer specializing in software development and AI-assisted workflows.
 
