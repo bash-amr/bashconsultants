@@ -7,6 +7,20 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 ### Added
+- **`pages/_posts/muses/2025-01-24-bash-consulting-breaking.md`** — New satirical press-release post ("If a press release about ethical capitalism wrote itself") covering ESG accounting for Denver SMBs; includes a straight practical section on what's buildable on QuickBooks today.
+- **`.github/prompts/article-write.prompt.md`** — New `/article-write` agent prompt for drafting new bashconsultants.com posts end-to-end.
+
+### Changed
+- **`pages/_posts/muses/2025-08-12-innovation-paradox.md`** — Frontmatter updated (author, description, keywords, lastmod, tags normalized); content rewritten for voice and SMB focus.
+- **`pages/_posts/tech/2025-08-12-ai-integration-reality.md`** — Frontmatter updated; content rewritten with honest SMB-first framing on AI implementation.
+- **`pages/_posts/tech/2025-11-19-prompts-are-the-new-command-line.md`** — Frontmatter normalized (author, lastmod, categories/tags as YAML lists); content already updated to SMB voice.
+
+### Removed
+- **`pages/_posts/tech/2025-01-24-bash-consulting-breaking.md`** — Deleted from `tech/`; replaced by the muses rewrite above.
+
+---
+
+### Added
 - **`.github/instructions/`** — Six file-scoped instruction files for AI agents:
   - `content-style.instructions.md` (applyTo `pages/**`, `index.md`, `about.md`, `contact.md`) — shared editorial voice, audience profile (Denver SMBs 5–200 employees), target-industry table, banned phrases, SEO + accessibility rules
   - `posts.instructions.md` (applyTo `pages/_posts/**/*.md`) — blog post structure + subfolder routing (corp/erp/muses/tech)
