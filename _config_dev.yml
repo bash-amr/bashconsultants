@@ -17,7 +17,7 @@ baseurl                  : ""  # Keep baseurl for GitHub Pages compatibility tes
 host                     : "0.0.0.0"  # Allow access from other devices on network
 port                     : 4042
 livereload               : true
-livereload_port          : 35729
+livereload_port          : 35730
 
 # Development Environment
 environment              : "development"

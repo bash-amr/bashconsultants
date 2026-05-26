@@ -11,6 +11,7 @@ services:
       - bundle_cache:/usr/local/bundle
     ports:
       - "4042:4042"
+      - "35730:35730"
     working_dir: /app
     environment:
       JEKYLL_ENV: development
