@@ -16,12 +16,12 @@
       url: /services/fintech/
 - title: Blog
   icon: bi-journal-text
-  url: /posts/
+  url: /news/
   children:
     - title: Posts
-      url: /posts/
+      url: /news/posts/
     - title: Muses
-      url: /posts/muses/
+      url: /news/posts/muses/
 - title: Contact
   icon: bi-envelope
   url: /contact/
