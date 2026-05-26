@@ -3,14 +3,20 @@ title: "AI for small business: what the pilots don't tell you"
 description: "Most AI projects at small and mid-sized businesses fail on data, change management, and ongoing cost — not the model. A realistic look at what actually works."
 author: "Amr Abdel-Motaleb"
 layout: article
-date: 2025-08-12T11:00:00.000Z
-lastmod: 2026-05-19T12:00:00.000Z
-draft: false
-categories: [tech]
-tags: [ai, smb, implementation, strategy]
-featured: true
+author: BASH Consulting Team
+description: A practical analysis of AI implementation challenges, realistic timelines, and strategic considerations beyond the marketing promises.
 preview: /assets/images/previews/ai-integration-reality-check-what-the-hype-doesn-t.png
-excerpt: "The AI projects that work at small and mid-sized businesses look very different from the ones in the case studies. Here's what to plan for."
+date: 2025-08-12T11:00:00.000Z
+categories:
+    - tech
+tags:
+    - artificial-intelligence
+    - implementation
+    - strategy
+    - digital-transformation
+featured: true
+excerpt: While AI promises transformational benefits, successful implementation requires navigating practical challenges that often get overlooked in the excitement.
+draft: true
 ---
 
 The case studies you read about AI — the ones with the dashboards, the percentage gains, the executive quote — are almost always written about companies with full data teams and seven-figure budgets. The version that lands on the desk of a 40-person Denver firm looks nothing like that. The model is the easy part. The expensive part is everything around it.
