@@ -27,6 +27,21 @@ In today's rapidly evolving technological landscape, small and medium-sized busi
 
 **BASH Consulting**, a Denver-based IT consulting firm, is dedicated to leveling the playing field. We strive to make meaningful contributions to our community by empowering small businesses to leverage technologies that were once reserved exclusively for multi-billion-dollar enterprises. Our mission is to provide the tools, expertise, and support necessary for SMBs to thrive in this competitive climate, enabling them to not only survive but to innovate and lead in their respective industries.
 
+The single biggest shift in that competitive climate is **artificial intelligence**. For the first time, capabilities that used to require a dedicated data-science team are available to a ten-person shop. But AI is not a replacement for the disciplined, scriptable engineering that has quietly run business infrastructure for decades—it is a layer on top of it. That conviction is built into our name.
+
+---
+
+## The BASH Philosophy: AI Layered Over Proven Foundations
+
+Our name is a deliberate double meaning. **BASH** stands for **Bourne Again Solutions Hero**—a nod to the *Bourne Again Shell* (`bash`), the command-line interpreter that has automated servers, pipelines, and back-office processes since 1989. Long before "AI" was on any roadmap, the real leverage in technology came from people who could write a script: a few deterministic, auditable, repeatable lines that did the work of a hundred manual steps. That heritage of transparent, dependable automation is the foundation everything we build sits on.
+
+We see artificial intelligence the same way the shell sees a script—**as a powerful layer that sits on top of a stable system, not a replacement for it.** Our solution stack overlays modern AI on the proven methods of command-line automation, scripting, and infrastructure-as-code:
+
+- **The foundation layer — deterministic automation.** Shell scripts, scheduled jobs, infrastructure-as-code, and tested data pipelines. This is the part that has to be *boring*: the same input produces the same output every time, every run is logged, and every step can be defended to an auditor. This is where your journal entries, your migrations, and your compliance-critical processes live.
+- **The intelligence layer — AI overlay.** Large language models, machine learning, and intelligent agents that sit *on top of* that foundation. AI drafts the script, interprets the messy input, summarizes the result, and flags the anomaly—but it does so within guardrails the deterministic layer enforces. As we like to put it, [prompts are the new command line](/blog/): they lower the floor of who can drive the machine, while the machine underneath stays trustworthy enough to ship.
+
+This layered approach is what keeps AI useful instead of dangerous. A prompt is not deterministic—the same question can return two different answers an hour apart. That is fine for drafting an email and reckless for a price quote or a tax filing. By keeping AI as an overlay on a deterministic base, we capture the speed and accessibility of AI while preserving the reliability, auditability, and version control that real business operations demand. You get a hero on the command line, not a black box.
+
 ---
 
 ## What We Do
@@ -72,7 +87,26 @@ Residing in Denver, Colorado, Amr enjoys all the great things the region has to 
 
 ## Our Services
 
-At BASH Consulting, we offer a comprehensive suite of services designed to address the diverse needs of small and medium-sized businesses. Our offerings are structured to provide end-to-end solutions, from initial planning and design to implementation and ongoing support.
+At BASH Consulting, we offer a comprehensive suite of services designed to address the diverse needs of small and medium-sized businesses. Our offerings are structured to provide end-to-end solutions, from initial planning and design to implementation and ongoing support. Every engagement is delivered through our layered model: a deterministic automation foundation with an AI overlay that makes it faster to build and easier to use.
+
+---
+
+### AI Solutions and Intelligent Automation
+
+Artificial intelligence is the connective tissue across everything we do. Rather than selling "an AI project," we treat AI as a **solution stack that overlays your existing systems and scripts**—turning the automation you already rely on into something faster to build, easier to operate, and accessible to non-technical staff.
+
+**Where the AI Overlay Adds Value**
+
+- **Prompt-driven automation:** Replacing brittle, hand-written glue code with AI-assisted workflows that a controller or office manager can drive in plain English, while the underlying shell scripts and pipelines keep execution deterministic and logged.
+- **Intelligent document and data processing:** OCR and natural-language extraction that turn invoices, contracts, and emails into structured data your existing systems can consume.
+- **AI-assisted development:** Using tools like GitHub Copilot and agentic coding workflows to generate, test, and document scripts and integrations—shrinking weeks of custom work into hours.
+- **Decision support and forecasting:** Machine-learning models that surface anomalies, forecast cash flow, and summarize results on top of your warehouse and ERP data.
+
+**How We Keep It Safe**
+
+- **Guardrails by design:** AI drafts and interprets; the deterministic foundation validates and executes. Compliance-critical steps never depend on a non-deterministic answer.
+- **Full audit trail:** We log the prompt, the inputs, the model version, and the output—so every AI-assisted decision can be reproduced and defended.
+- **No lock-in:** Prompts and models are kept thin and portable, layered over standards-based automation you continue to own.
 
 ---
 
@@ -240,6 +274,10 @@ Technology should serve as an enabler, not a barrier. We focus on simplifying co
 - **Holistic Approach**
 
   We offer a comprehensive suite of services, from cloud architecture to ERP consulting and accounting information systems. Our holistic approach ensures that all aspects of your IT infrastructure work seamlessly together.
+
+- **AI-Layered, Future-Ready Solutions**
+
+  True to our name, we overlay modern AI on a foundation of proven, scriptable automation. You get the speed and accessibility of artificial intelligence without sacrificing the reliability, auditability, and control of deterministic systems—an approach built to last as the technology evolves.
 
 - **Client-Centric Philosophy**
 
