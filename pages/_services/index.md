@@ -25,6 +25,33 @@ permalink: /services/
 draft: draft
 ---
 
+### AI Solutions & Intelligent Automation
+
+**Description:**  
+The intelligence layer that overlays everything we do. True to our name—**Bourne Again Solutions Hero**, a nod to the `bash` shell—we treat AI as a solution stack that sits *on top of* proven, scriptable automation rather than replacing it. The foundation stays deterministic and auditable; the AI overlay makes it faster to build and accessible to non-technical staff.
+
+**Services:**
+
+- **AI Overlay Strategy and Readiness**
+  - AI opportunity assessment across existing systems and scripts
+  - Data readiness evaluation for machine learning
+  - Guardrail, governance, and audit-trail design
+- **Prompt-Driven Automation**
+  - Plain-English workflows over deterministic shell and pipeline foundations
+  - Reusable, versioned prompt assets ("prompts are the new command line")
+  - Human-in-the-loop validation for compliance-critical steps
+- **Intelligent Document and Data Processing**
+  - OCR and natural-language extraction (invoices, contracts, email)
+  - Structured output feeding your existing ERP and accounting systems
+- **AI-Assisted Development**
+  - GitHub Copilot and agentic coding workflows
+  - Automated script, test, and documentation generation
+- **Decision Support and Forecasting**
+  - Anomaly detection, cash-flow forecasting, and automated summaries
+  - Machine-learning models layered over your data warehouse
+
+---
+
 ### Cloud Services and Infrastructure
 
 **Description:**  
