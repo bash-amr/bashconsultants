@@ -15,6 +15,24 @@
     - System and database migrations
     - Database and Data Warehouse design
     - Business Intelligence and Reporting
+- title: AI Solutions & Intelligent Automation
+  description: "True to our name—Bourne Again Solutions Hero—we overlay artificial intelligence on the proven foundation of command-line automation and scripting. AI is not a replacement for the deterministic, auditable systems that run your business; it is a layer on top of them. We use that layer to make automation faster to build and easier to drive, while keeping the foundation reliable enough for compliance-critical work. Prompts are the new command line, and we make sure the machine underneath stays trustworthy enough to ship."
+  scope: We integrate large language models, machine learning, and intelligent agents on top of your existing systems, scripts, and pipelines—with guardrails, audit trails, and no vendor lock-in.
+  offer: From prompt-driven workflows and intelligent document processing to AI-assisted development and forecasting, we help small businesses capture the speed of AI without sacrificing control.
+  image: /assets/images/architecture-video-rendering.png
+  url: /services/dev/
+  systems:
+    - OpenAI / Anthropic LLMs
+    - Azure Cognitive Services
+    - AWS AI / SageMaker
+    - Google Cloud AI
+  service:
+    - AI overlay strategy and readiness assessment
+    - Prompt-driven workflow automation
+    - Intelligent document and data processing (OCR/NLP)
+    - AI-assisted software development and integration
+    - Machine-learning forecasting and decision support
+    - Guardrails, audit trails, and model governance
 - title: ERP Consulting
   description: For larger organizations where those 3 letters "E-R-P" give you the chills, fear no more. We have extensive experience and understanding of these behemoth applications and can assist in the rigorous quest to harmonize the system. Our team has been through many of these journeys, implementing various systems (QAD, Infor, Oracle, etc.), in both technical and functional areas, primarily in the manufacturing industry.
   scope: 
