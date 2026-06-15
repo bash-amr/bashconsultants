@@ -1,0 +1,50 @@
+{%- comment -%}
+  Schema.org JSON-LD for AI-engine citability and search rich results.
+  Generated from _data/entity so it stays in sync with the page content.
+{%- endcomment -%}
+{%- assign info = site.data.entity.info -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": {{ info.name | jsonify }},
+  "alternateName": "Bourne Again Solutions",
+  "description": {{ info.description | jsonify }},
+  "url": {{ info.url | jsonify }},
+  "email": {{ info["contact-email"] | jsonify }},
+  "telephone": {{ info["contact-phone"] | jsonify }},
+  "founder": { "@type": "Person", "name": {{ info["contact-name"] | jsonify }} },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Denver",
+    "addressRegion": "CO",
+    "addressCountry": "US"
+  },
+  "areaServed": "United States",
+  "knowsAbout": [
+    "Cloud Architecture", "AWS", "GCP", "Azure",
+    "ERP Consulting", "QAD", "Infor", "Oracle PeopleSoft",
+    "Accounting Information Systems", "QuickBooks", "Financial Modeling"
+  ]
+}
+</script>
+{%- if site.data.entity.faq -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for faq in site.data.entity.faq -%}
+    {
+      "@type": "Question",
+      "name": {{ faq.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.answer | strip_newlines | jsonify }}
+      }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}

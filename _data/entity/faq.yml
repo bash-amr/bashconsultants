@@ -1,0 +1,51 @@
+# Frequently asked questions — rendered on the landing page and as FAQPage
+# JSON-LD structured data. Keep answers factual and grounded in our services.
+- question: What is BASH Consulting?
+  answer: >-
+    BASH Consulting (Bourne Again Solutions) is a Denver-based IT consulting
+    practice that helps small and medium-sized businesses leverage modern
+    technologies — cloud infrastructure, ERP systems, and accounting information
+    systems — that were once reserved for large enterprises.
+
+- question: Who does BASH Consulting work with?
+  answer: >-
+    We focus on small- to medium-sized businesses looking to adopt or extend
+    enterprise-grade technology cost-effectively, from start-ups moving to the
+    cloud to manufacturers harmonizing an ERP rollout.
+
+- question: What services does BASH Consulting offer?
+  answer: >-
+    Three core areas: Cloud Architecture (infrastructure design and migration on
+    AWS, GCP, and Azure), ERP Consulting (implementation and support for systems
+    like QAD, Infor, and Oracle), and Accounting Information Systems (system
+    selection, integration, financial modeling, and reporting).
+
+- question: Which cloud platforms do you support?
+  answer: >-
+    We work exclusively with cloud technologies and have expertise across the
+    three major providers — AWS, GCP, and Azure — including configurable
+    eCommerce applications integrated with accounting systems such as QuickBooks.
+
+- question: What ERP systems do you have experience with?
+  answer: >-
+    Our team has implemented QAD Enterprise Edition and Mfg/Pro, Infor ERP LN
+    (Baan) and CloudSuite Industrial (SyteLine), Oracle PeopleSoft Financials,
+    and Hyperion Financial Management — in both technical and functional roles,
+    primarily in manufacturing.
+
+- question: Do you work with QuickBooks and other accounting systems?
+  answer: >-
+    Yes. We design, implement, and support accounting information systems
+    including QuickBooks, Sage, and Microsoft Dynamics, and we specialize in
+    extending the Excel financial models many businesses already rely on.
+
+- question: Where is BASH Consulting located?
+  answer: >-
+    We are based in Denver, Colorado, and serve small and medium-sized
+    businesses remotely across the cloud providers we support.
+
+- question: How do I get started with BASH Consulting?
+  answer: >-
+    Email us at info@bashconsultants.com or call 720-352-4641 to schedule a
+    consultation. We start with a discovery conversation to understand your
+    systems and goals before recommending an approach.

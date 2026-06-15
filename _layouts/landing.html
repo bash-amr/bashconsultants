@@ -13,15 +13,19 @@ layout: root
     <!-- particles.js -->
     <div id="particles-js" class="container z-n1 position-absolute"></div>
 
+    <!-- Schema.org structured data (Organization + FAQ) for AI engines & search -->
+    {% include structured-data.html %}
+
     <!-- Centered Intro - Logo and Site Description -->
     <div class="container px-4 py-5">
-      <h1 class="visually-hidden">{{site.title}}</h1>
       <div class="text-center">
         <img class="d-block mx-auto mb-4" src="{{site.logo}}" alt="" width="72" height="57">
         <h1 class="display-5 fw-bold text-body-emphasis">{{ site.title }}</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">{{ site.description}} </p>
+        <div class="col-lg-8 mx-auto">
+          <p class="lead mb-2">{{ site.description }}</p>
+          <p class="text-body-secondary mb-4">Denver-based IT consulting that brings enterprise-grade cloud, ERP, and accounting systems within reach of small and medium-sized businesses.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="/contact" class="btn btn-primary btn-lg px-4">Book a free consultation</a>
             <a href="/about" class="btn btn-outline-secondary btn-lg px-4">Learn More</a>
           </div>
         </div>
@@ -31,7 +35,7 @@ layout: root
 <!-- Page Title, Entity Info, and mission -->
 
     <div class=" border-bottom">
-      <h1 class="text-center fs-6 text-uppercase">{{ page.title }}</h1>
+      <h2 class="text-center fs-6 text-uppercase">{{ page.title }}</h2>
       <div class="col-lg-10 mx-auto">
         <p class="lead fs-1 mb-4 text-center text-monospace text-body-emphasis">{{site.data.entity.info.goal}}</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
@@ -54,7 +58,7 @@ layout: root
             </div>
         <div class="col-lg-6">
           <p class="label">About</p>
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">What we do</h1>
+          <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">What does BASH Consulting do?</h2>
           <p class="lead">{{ site.data.entity.info.about-company }}</p>
           <p class="lead">{{ site.data.entity.info.about-company-2 }}</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
@@ -71,7 +75,7 @@ layout: root
 
         <div class="col-lg-6">
           <p class="label">"Team"</p>
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Amr</h1>
+          <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Amr</h2>
           <p class="label">Solution Architect</p>
           <p class="lead">{{ site.data.entity.info.about-founder-purpose }}</p>
           <p class="lead">{{ site.data.entity.info.about-founder-location }}</p>
@@ -95,7 +99,7 @@ layout: root
 <div class="container-xl my-5">
   <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
     <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
-      <h1 class="display-4 fw-bold lh-1 text-body-emphasis">{{ service.title }}</h1>
+      <h2 class="display-4 fw-bold lh-1 text-body-emphasis">{{ service.title }}</h2>
       <p class="lead">{{ service.description }}</p>
       <ul>
         {% for sys in service.systems %}
@@ -118,14 +122,102 @@ layout: root
 </div>
 {% endfor %}
 
+<!-- Definitions / What is BASH -->
+<div class="container col-xxl-10 px-4 py-5 border-bottom">
+  <h2 class="display-6 fw-bold text-body-emphasis mb-2">What is BASH Consulting?</h2>
+  <p class="lead mb-4">Plain-language definitions of the terms and services we work with.</p>
+  <dl class="row">
+    <dt class="col-sm-3">BASH</dt>
+    <dd class="col-sm-9">BASH refers to <strong>Bourne Again Solutions</strong> — a Denver-based IT consulting practice that helps small and medium-sized businesses adopt enterprise-grade technology cost-effectively.</dd>
+
+    <dt class="col-sm-3">Cloud Architecture</dt>
+    <dd class="col-sm-9">Cloud architecture refers to the design and implementation of computing infrastructure on shared, on-demand data centers (AWS, GCP, Azure) instead of buying and maintaining your own hardware — giving small businesses enterprise capacity with no large up-front capital investment.</dd>
+
+    <dt class="col-sm-3">IaaS &amp; SaaS</dt>
+    <dd class="col-sm-9">Infrastructure as a Service (IaaS) refers to renting the underlying servers, storage, and networking on demand. Software as a Service (SaaS) means that ready-to-use applications are delivered over the internet. We help businesses move from owned hardware to both models.</dd>
+
+    <dt class="col-sm-3">ERP</dt>
+    <dd class="col-sm-9">An Enterprise Resource Planning (ERP) system is defined as the central software that runs a company's core operations — finance, inventory, manufacturing, and supply chain — in one integrated platform. We implement and support systems such as QAD, Infor, and Oracle.</dd>
+
+    <dt class="col-sm-3">AIS</dt>
+    <dd class="col-sm-9">An Accounting Information System (AIS) refers to the financial backbone that records, processes, and reports a business's transactions. We design, integrate, and support these systems — from QuickBooks to enterprise data warehouses and Excel financial models.</dd>
+  </dl>
+</div>
+
+<!-- How it works / process -->
+<div class="container col-xxl-10 px-4 py-5 border-bottom">
+  <h2 class="display-6 fw-bold text-body-emphasis mb-2">How does it work?</h2>
+  <p class="lead mb-4">A straightforward, four-step engagement designed to fit how small businesses operate.</p>
+  <ol class="fs-5">
+    <li class="mb-3"><strong>Step 1 — Discovery consultation.</strong> We start with a free conversation to understand your business, current systems, and goals — no jargon, no obligation.</li>
+    <li class="mb-3"><strong>Step 2 — Assessment &amp; architecture.</strong> We map your existing tools and design a cost-effective solution, whether that's a cloud migration, an ERP rollout, or an upgraded accounting system.</li>
+    <li class="mb-3"><strong>Step 3 — Implementation &amp; integration.</strong> We build, configure, and integrate the solution — connecting cloud infrastructure, applications, and accounting systems so your data flows in one place.</li>
+    <li class="mb-3"><strong>Step 4 — Training &amp; support.</strong> We train your team and provide ongoing support, transferring the knowledge so your people can run and grow the system themselves.</li>
+  </ol>
+</div>
+
+<!-- Comparison table -->
+<div class="container col-xxl-10 px-4 py-5 border-bottom">
+  <h2 class="display-6 fw-bold text-body-emphasis mb-2">Why choose BASH Consulting?</h2>
+  <p class="lead mb-4">How an independent, enterprise-experienced consultant compares to the alternatives.</p>
+  <div class="table-responsive">
+    <table class="table table-striped align-middle">
+      <thead>
+        <tr>
+          <th scope="col">What matters</th>
+          <th scope="col">Large IT firm</th>
+          <th scope="col">In-house hire</th>
+          <th scope="col" class="text-body-emphasis">BASH Consulting</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Cost</th><td>High retainers &amp; overhead</td><td>Full-time salary + benefits</td><td>Cost-effective, project-based</td></tr>
+        <tr><th scope="row">Enterprise expertise</th><td>Yes</td><td>Varies by hire</td><td>10+ years across QAD, Infor, Oracle, AWS, GCP, Azure</td></tr>
+        <tr><th scope="row">Small-business focus</th><td>Rarely the priority</td><td>Yes</td><td>Our entire focus</td></tr>
+        <tr><th scope="row">Breadth</th><td>Siloed teams</td><td>Single skill set</td><td>Cloud, ERP &amp; accounting under one roof</td></tr>
+        <tr><th scope="row">Flexibility</th><td>Fixed contracts</td><td>Fixed headcount</td><td>Scale engagement up or down as needed</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="container col-xxl-10 px-4 py-5 border-bottom">
+  <h2 class="display-6 fw-bold text-body-emphasis mb-4">Frequently asked questions</h2>
+  <div class="row">
+    {% for faq in site.data.entity.faq %}
+    <div class="col-lg-6 mb-4">
+      <h3 class="fs-5 fw-bold text-body-emphasis">{{ faq.question }}</h3>
+      <p>{{ faq.answer }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- Why work with us (trust) -->
+<div class="container col-xxl-10 px-4 py-5 border-bottom text-center">
+  <h2 class="display-6 fw-bold text-body-emphasis mb-4">Why businesses trust BASH</h2>
+  <div class="row g-4">
+    <div class="col-md-3"><p class="display-6 fw-bold text-primary mb-0">10+ yrs</p><p class="text-body-secondary">Enterprise IT &amp; finance systems experience</p></div>
+    <div class="col-md-3"><p class="display-6 fw-bold text-primary mb-0">3</p><p class="text-body-secondary">Major cloud platforms — AWS, GCP &amp; Azure</p></div>
+    <div class="col-md-3"><p class="display-6 fw-bold text-primary mb-0">Denver</p><p class="text-body-secondary">Colorado-based, serving the US remotely</p></div>
+    <div class="col-md-3"><p class="display-6 fw-bold text-primary mb-0">BS &amp; MS</p><p class="text-body-secondary">Finance and Information Systems degrees</p></div>
+  </div>
+  {% comment %}
+  TODO (Amr): add real client testimonials below to further strengthen trust signals.
+  Each entry needs a genuine quote, client name, and (ideally) company — do not use placeholders publicly.
+  <blockquote class="blockquote mt-5"><p>"Quote here."</p><footer class="blockquote-footer">Client Name, Company</footer></blockquote>
+  {% endcomment %}
+</div>
+
   {{ content }}
-  
+
 <!-- Mission Quote -->
 
   <div class="container-fluid bg-dark text-secondary px-4 py-5 text-left">
     <div class="container-lg ">
 
-      <h2 class="display-5 text-white">Mission</h1>
+      <h2 class="display-5 text-white">Mission</h2>
         <blockquote class="blockquote">
             <p class="fs-5 ">{{ site.data.entity.info.mission }}</p>
         </blockquote>
@@ -164,7 +256,7 @@ layout: root
 <div class="container col-xl-10 col-xxl-12 px-4 py-5">
   <div class="row align-items-center g-lg-5 py-5">
     <div class="col-lg-7 text-center text-lg-start">
-      <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Want to stay posted with our latest news?</h1>
+      <h2 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Want to stay posted with our latest news?</h2>
       <p class="col-lg-10 fs-4">Sign up to our newsletter to receive our latest news and updates.</p>
     </div>
     <div class="col-md-10 mx-auto col-lg-5">
