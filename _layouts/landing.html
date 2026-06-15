@@ -185,7 +185,7 @@ layout: root
 <div class="container col-xxl-10 px-4 py-5 border-bottom">
   <h2 class="display-6 fw-bold text-body-emphasis mb-4">Frequently asked questions</h2>
   <div class="row">
-    {% for faq in site.data.entity.faq %}
+    {% for faq in page.faq_items %}
     <div class="col-lg-6 mb-4">
       <h3 class="fs-5 fw-bold text-body-emphasis">{{ faq.question }}</h3>
       <p>{{ faq.answer }}</p>

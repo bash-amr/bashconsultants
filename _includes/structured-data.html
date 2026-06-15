@@ -1,6 +1,7 @@
 {%- comment -%}
-  Schema.org JSON-LD for AI-engine citability and search rich results.
-  Generated from _data/entity so it stays in sync with the page content.
+  Organization (ProfessionalService) JSON-LD for AI-engine citability and search,
+  generated from _data/entity/info.yml. The FAQPage JSON-LD is emitted separately
+  in <head> by the theme (content/jsonld-faq) from the page's `faq_items`.
 {%- endcomment -%}
 {%- assign info = site.data.entity.info -%}
 <script type="application/ld+json">
@@ -28,23 +29,3 @@
   ]
 }
 </script>
-{%- if site.data.entity.faq -%}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {%- for faq in site.data.entity.faq -%}
-    {
-      "@type": "Question",
-      "name": {{ faq.question | jsonify }},
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": {{ faq.answer | strip_newlines | jsonify }}
-      }
-    }{%- unless forloop.last -%},{%- endunless -%}
-    {%- endfor -%}
-  ]
-}
-</script>
-{%- endif -%}
