@@ -1,0 +1,31 @@
+{%- comment -%}
+  Organization (ProfessionalService) JSON-LD for AI-engine citability and search,
+  generated from _data/entity/info.yml. The FAQPage JSON-LD is emitted separately
+  in <head> by the theme (content/jsonld-faq) from the page's `faq_items`.
+{%- endcomment -%}
+{%- assign info = site.data.entity.info -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": {{ info.name | jsonify }},
+  "alternateName": "Bourne Again Solutions",
+  "description": {{ info.description | jsonify }},
+  "url": {{ info.url | jsonify }},
+  "email": {{ info["contact-email"] | jsonify }},
+  "telephone": {{ info["contact-phone"] | jsonify }},
+  "founder": { "@type": "Person", "name": {{ info["contact-name"] | jsonify }} },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Denver",
+    "addressRegion": "CO",
+    "addressCountry": "US"
+  },
+  "areaServed": "United States",
+  "knowsAbout": [
+    "Cloud Architecture", "AWS", "GCP", "Azure",
+    "ERP Consulting", "QAD", "Infor", "Oracle PeopleSoft",
+    "Accounting Information Systems", "QuickBooks", "Financial Modeling"
+  ]
+}
+</script>
