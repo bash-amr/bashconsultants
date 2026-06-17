@@ -1,25 +1,24 @@
 name: "BASH Consulting"
-description: Helping small businesses leverage modern technologies to grow.
+description: Helping small businesses adopt modern technology to grow.
 subtitle: "Bourne Again Solutions Hero"
 url: "https://bashconsultants.com"
-about-company: At BASH Consulting, we strive to make meaningful contributions for our community by empowering small business to leverage technologies once reserved to multi-billion dollar enterprises. Today's world is dominated by a few tech giants, now valued at $9 trillion, who are constantly changing the landscape for small business. Our goal is to help provide the tools to allow small businesses to thrive in this climate.   Therefore, our Denver-based IT consulting team focuses on  solutions ranging from "Infrastructure As A Service" (IAAS) to  "Software As A Service" (SAAS) for small- to medium-sized businesses looking for ways to ride this tech wave. 
-about-company-2: We recognize that data is king, so we pride ourselves on providing cost effective, valuable IT architectural solutions to meet your needs. Our expertise covers a wide spectrum of technologies ranging from the common back office software suite (Excel, Access, Outlook) to scalable enterprise wide applications (ERP's, CRM's, EAM's, EPM's), and draws upon over a decade of experience in Finance/Accounting  Information Systems.  We can architect your systems to provides insightful financial results to help you manage your business.
-about-company-3: "True to our name—Bourne Again Solutions Hero, a nod to the bash shell that has quietly automated business systems for decades—we treat artificial intelligence as a solution stack that overlays proven, scriptable automation rather than replacing it. The result is the best of both worlds: the speed and accessibility of AI on top of a deterministic, auditable foundation you can trust with compliance-critical work."
-about-founder-purpose: "Amr started this organization as a way to share and propagate business best practices using modern software technologies in a world of IT disarray. Today's businesses are faced with ever evolving software architectures and solutions that will make or break an organization. With over a decade of experience working with enterprise grade IT systems and navigating through the ocean of technical jargon, Amr hopes to transfer the wisdom, empower the employees, and deliver optimal IT solutions for small businesses to grow."
-about-founder-location: "Amr resides in Denver, Colorado and holds a BS in Finance from Northern Illinois University and an MS in Information Systems from University of Colorado Denver."
-about-founder-personal: "Outside the office, Amr spends his time enjoying all the great things Colorado has to offer such as biking, hiking, camping, climbing, and running. He is an advocate of workers' rights and consumer protections, and strong supporter of small businesses."
+about-company: "BASH Consulting helps small and medium-sized businesses in the Denver area adopt the same enterprise technology — cloud infrastructure, ERP, and accounting systems — that used to be reserved for large corporations. We focus on practical, cost-effective architecture: Infrastructure as a Service (IaaS) and Software as a Service (SaaS) sized for a smaller budget and a smaller team, with no large up-front capital investment."
+about-company-2: "Good decisions depend on good data. We design cost-effective IT architecture that spans the everyday back-office tools businesses already run (Excel, Access, Outlook) and the enterprise systems they grow into — ERP, CRM, asset management, and performance management. With more than a decade in finance and accounting information systems, we build systems that produce clear, accurate financial results you can run the business on."
+about-founder-purpose: "Amr started BASH Consulting to bring the practices he used inside large manufacturers to the small businesses that rarely get access to them. The systems that run a company — finance, inventory, reporting — can make or break it, and the jargon around them keeps many owners from making confident choices. After more than a decade implementing enterprise IT and financial systems, Amr's approach is straightforward: explain the options in plain terms, give your team the tools and training to run them, and deliver IT that helps a small business grow."
+about-founder-location: "Amr resides in Denver, Colorado and holds a BS in Finance from Northern Illinois University and an MS in Information Systems from the University of Colorado Denver."
+about-founder-personal: "Outside the office, Amr spends his time enjoying all the great things Colorado has to offer such as biking, hiking, camping, climbing, and running. He is an advocate of workers' rights and consumer protections, and a strong supporter of small businesses."
 goal: "Helping small businesses navigate through the world of IT disarray"
 mission: "To empower our community and improve organizational effectiveness"
 mission-approach: |
   We empower the people with tools to advance collective objectives
-  We educate the people with knowledge and skills to utilize their tools
+  We educate the people with knowledge and skills to use their tools
   We engage our people to educate and empower them
 mission-inspiration: "\"Justice is nothing else than the interest of the stronger\" - Thrasymachus"
 tagline: Bourne Again Solution Hero
 contact-tagline: "Let us help you grow your business."
 catchphrase: Justice is nothing else than the interest of the stronger.
-contact-note: BASH Consulting LLC currently operates as an independent contractor catering to small and medium sized businesses who need support/expertise in the area of information technology and business management systems. We plan to grow our practice, build our team, and expand our services in the near future. 
+contact-note: BASH Consulting LLC currently operates as an independent contractor serving small and medium-sized businesses that need support and expertise in information technology and business management systems. We plan to grow our practice, build our team, and expand our services over time.
 contact-name: "Amr Abdel-Motaleb"
 contact-email: "info@bashconsultants.com"
 contact-phone: "720-352-4641"
-contact-instructions: "If you have any inquires, or would like to schedule a consultation, feel free to email us at:."
+contact-instructions: "If you have a question, or would like to schedule a consultation, email us at:"

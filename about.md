@@ -1,330 +1,194 @@
 ---
 title: BASH Consulting
-description: This page provides information about the company, its purpose, and the principles guiding its development.
-excerpt: This page provides information about the company, its configuration, and the variables guiding its development.
+description: BASH Consulting is a Denver-based IT consultancy bringing enterprise cloud, ERP, and accounting systems within reach of small and medium-sized businesses.
+excerpt: Who we are, what we do, and the experience behind BASH Consulting — a Denver IT practice for small and medium-sized businesses.
 layout: default
 preview: /assets/images/office.jpg
-sidebar: 
+sidebar:
   nav: dynamic
+keywords:
+  - Denver IT consulting
+  - small business IT
+  - cloud architecture
+  - ERP consulting
+  - accounting information systems
+  - QuickBooks to ERP migration
 categories:
   - about
 tags:
   - about
 draft: published
 date: 2024-05-31T01:35:49.414Z
-lastmod: 2024-05-31T02:27:28.184Z
+lastmod: 2026-06-15T12:00:00.000Z
 permalink: /about/
 slug: about
 ---
 
-**Note:** BASH Consulting LLC currently operates as an independent contractor catering to small and medium sized businesses who need support/expertise in the area of information technology and business management systems. We plan to grow our practice, build our team, and expand our services in the near future. 
+**Note:** BASH Consulting LLC currently operates as an independent contractor serving small and medium-sized businesses that need support and expertise in information technology and business management systems. We plan to grow the practice, build our team, and expand our services over time.
 
 ---
 
-## Introduction
+## Who we are
 
-In today's rapidly evolving technological landscape, small and medium-sized businesses (SMBs) often find themselves at a crossroads. The business environment is dominated by tech giants valued at over $9 trillion, whose constant innovation and market influence can make it challenging for smaller enterprises to keep pace. These large corporations have access to cutting-edge technologies, vast resources, and economies of scale that can seem out of reach for the average SMB.
+BASH Consulting — Bourne Again Solutions — is a Denver-based IT consultancy. Small and medium-sized businesses (SMBs) compete against companies with far larger technology budgets and dedicated IT teams. The systems that give those larger companies an edge — cloud infrastructure, Enterprise Resource Planning (ERP), and modern accounting platforms — are now available to smaller businesses without a large up-front capital investment. Our job is to help you choose, build, and run them.
 
-**BASH Consulting**, a Denver-based IT consulting firm, is dedicated to leveling the playing field. We strive to make meaningful contributions to our community by empowering small businesses to leverage technologies that were once reserved exclusively for multi-billion-dollar enterprises. Our mission is to provide the tools, expertise, and support necessary for SMBs to thrive in this competitive climate, enabling them to not only survive but to innovate and lead in their respective industries.
+<div class="text-center my-4">
+  <img src="/assets/images/office.jpg" class="img-fluid rounded-3 shadow-sm" alt="A small-business office workspace with laptops and paperwork" loading="lazy">
+</div>
 
-The single biggest shift in that competitive climate is **artificial intelligence**. For the first time, capabilities that used to require a dedicated data-science team are available to a ten-person shop. But AI is not a replacement for the disciplined, scriptable engineering that has quietly run business infrastructure for decades—it is a layer on top of it. That conviction is built into our name.
-
----
-
-## The BASH Philosophy: AI Layered Over Proven Foundations
-
-Our name is a deliberate double meaning. **BASH** stands for **Bourne Again Solutions Hero**—a nod to the *Bourne Again Shell* (`bash`), the command-line interpreter that has automated servers, pipelines, and back-office processes since 1989. Long before "AI" was on any roadmap, the real leverage in technology came from people who could write a script: a few deterministic, auditable, repeatable lines that did the work of a hundred manual steps. That heritage of transparent, dependable automation is the foundation everything we build sits on.
-
-We see artificial intelligence the same way the shell sees a script—**as a powerful layer that sits on top of a stable system, not a replacement for it.** Our solution stack overlays modern AI on the proven methods of command-line automation, scripting, and infrastructure-as-code:
-
-- **The foundation layer — deterministic automation.** Shell scripts, scheduled jobs, infrastructure-as-code, and tested data pipelines. This is the part that has to be *boring*: the same input produces the same output every time, every run is logged, and every step can be defended to an auditor. This is where your journal entries, your migrations, and your compliance-critical processes live.
-- **The intelligence layer — AI overlay.** Large language models, machine learning, and intelligent agents that sit *on top of* that foundation. AI drafts the script, interprets the messy input, summarizes the result, and flags the anomaly—but it does so within guardrails the deterministic layer enforces. As we like to put it, [prompts are the new command line](/blog/): they lower the floor of who can drive the machine, while the machine underneath stays trustworthy enough to ship.
-
-This layered approach is what keeps AI useful instead of dangerous. A prompt is not deterministic—the same question can return two different answers an hour apart. That is fine for drafting an email and reckless for a price quote or a tax filing. By keeping AI as an overlay on a deterministic base, we capture the speed and accessibility of AI while preserving the reliability, auditability, and version control that real business operations demand. You get a hero on the command line, not a black box.
+We work remotely with businesses across the Front Range and beyond, and we keep the relationship personal: you deal with the person doing the work, not a ticket queue.
 
 ---
 
-## What We Do
+## What we do
 
-At BASH Consulting, we specialize in delivering innovative, customized solutions that enable small to medium-sized businesses to ride the tech wave confidently and effectively. Our focus encompasses a wide range of services, from **Infrastructure as a Service (IaaS)** to **Software as a Service (SaaS)**, ensuring that our clients have access to the latest technologies without the need for prohibitive capital investments.
+We design, implement, and support the technology that runs a business — from the cloud infrastructure underneath it to the financial systems on top. Our work spans **Infrastructure as a Service (IaaS)** and **Software as a Service (SaaS)**, so you get current technology without buying and maintaining your own hardware.
 
-We understand that the rapid pace of technological change can be overwhelming. The cloud computing revolution, the rise of big data, the proliferation of software applications—all these developments offer tremendous opportunities but also present significant challenges. Our role is to guide businesses through this complex landscape, helping them to adopt and integrate new technologies in a way that aligns with their strategic objectives.
-
----
-
-## Our Expertise
-
-We recognize that **data is the lifeblood** of modern businesses. In an era where information drives decision-making, competitive advantage, and customer engagement, having the right IT architecture is crucial. We pride ourselves on providing cost-effective, valuable IT architectural solutions tailored to meet the unique needs of each client.
-
-Our expertise spans a wide spectrum of technologies. We are proficient in common back-office software suites like **Microsoft Excel, Access, and Outlook**, which remain essential tools for many businesses. At the same time, we have deep experience with scalable, enterprise-wide applications such as:
-
-- **Enterprise Resource Planning (ERP) systems**: Integrating various business processes into a unified system.
-- **Customer Relationship Management (CRM) systems)**: Managing interactions with current and potential customers.
-- **Enterprise Asset Management (EAM) systems**: Optimizing the lifecycle management of physical assets.
-- **Enterprise Performance Management (EPM) systems**: Monitoring and managing organizational performance according to key performance indicators.
-
-With over a decade of experience in finance and accounting information systems, we are uniquely positioned to bridge the gap between complex technological solutions and practical business applications. We understand the nuances of financial data, compliance requirements, and the importance of accurate, timely information. Our team is adept at architecting systems that provide insightful financial results, empowering business owners and managers to make informed, strategic decisions.
+The pace of change in cloud computing, data, and business applications is real, and it is easy to over-buy. We help you adopt the pieces that fit your goals and budget, and skip the ones that don't.
 
 ---
 
-## Our Team
+## Our expertise
 
-At the heart of BASH Consulting is our founder and **Solutions Architect**, **Amr**. His vision and leadership drive our mission to empower small businesses through technology. Amr started BASH Consulting as a way to share and propagate business best practices using modern software technologies in a world of IT disarray.
+Good decisions depend on good data, and good data depends on the right architecture. We provide cost-effective IT architecture tailored to each business.
 
-**Amr's Background and Motivation**
+Our experience spans the everyday back-office tools many businesses already rely on — **Microsoft Excel, Access, and Outlook** — through to enterprise-wide systems such as:
 
-Amr understands that today's businesses are faced with ever-evolving software architectures and solutions that can make or break an organization. The rapid pace of technological change, coupled with an ocean of technical jargon, can be daunting. With over a decade of experience working with enterprise-grade IT systems, Amr has navigated these challenges firsthand. His goal is to transfer this wisdom to our clients, empowering their employees and delivering optimal IT solutions that facilitate growth and success for small businesses.
+- **Enterprise Resource Planning (ERP)** — integrates core business processes into one system.
+- **Customer Relationship Management (CRM)** — manages interactions with current and prospective customers.
+- **Enterprise Asset Management (EAM)** — manages the lifecycle of physical assets.
+- **Enterprise Performance Management (EPM)** — tracks organizational performance against key metrics.
 
-**Education and Professional Experience**
+With more than a decade in finance and accounting information systems, we bridge complex technology and practical business needs. We understand financial data, compliance requirements, and why accurate, timely information matters — and we build systems that produce financial results owners and managers can actually decide with.
 
-Amr holds a **Bachelor of Science in Finance** from Northern Illinois University and a **Master of Science in Information Systems** from the University of Colorado Denver. His dual expertise in finance and information systems provides a unique perspective that blends financial acumen with technological savvy. This combination enables him to design IT solutions that not only meet technical requirements but also drive financial performance and strategic objectives.
-
-**Personal Interests and Advocacy**
-
-Residing in Denver, Colorado, Amr enjoys all the great things the region has to offer, such as biking, hiking, camping, climbing, and running. His appreciation for the outdoors reflects his commitment to balance and holistic well-being. Beyond his professional pursuits, Amr is an advocate of workers' rights and consumer protections. He believes in ethical business practices and is a strong supporter of small businesses, recognizing their vital role in the economy and community.
-
----
-
-## Our Services
-
-At BASH Consulting, we offer a comprehensive suite of services designed to address the diverse needs of small and medium-sized businesses. Our offerings are structured to provide end-to-end solutions, from initial planning and design to implementation and ongoing support. Every engagement is delivered through our layered model: a deterministic automation foundation with an AI overlay that makes it faster to build and easier to use.
+<div class="text-center my-4">
+  <img src="/assets/images/spreadsheet.jpg" class="img-fluid rounded-3 shadow-sm" alt="A financial spreadsheet model open on a screen" loading="lazy">
+</div>
 
 ---
 
-### AI Solutions and Intelligent Automation
+## Meet the founder
 
-Artificial intelligence is the connective tissue across everything we do. Rather than selling "an AI project," we treat AI as a **solution stack that overlays your existing systems and scripts**—turning the automation you already rely on into something faster to build, easier to operate, and accessible to non-technical staff.
+BASH Consulting was founded by **Amr Abdel-Motaleb**, our Solutions Architect. Amr started the practice to share the business and systems practices he used inside large manufacturers with the smaller businesses that rarely get access to them.
 
-**Where the AI Overlay Adds Value**
+<div class="text-center my-4">
+  <img src="/assets/images/Amr-Headshot_v2.jpg" class="img-fluid rounded-3 shadow-sm" alt="Headshot of Amr Abdel-Motaleb, founder of BASH Consulting" loading="lazy" style="max-width: 320px;">
+</div>
 
-- **Prompt-driven automation:** Replacing brittle, hand-written glue code with AI-assisted workflows that a controller or office manager can drive in plain English, while the underlying shell scripts and pipelines keep execution deterministic and logged.
-- **Intelligent document and data processing:** OCR and natural-language extraction that turn invoices, contracts, and emails into structured data your existing systems can consume.
-- **AI-assisted development:** Using tools like GitHub Copilot and agentic coding workflows to generate, test, and document scripts and integrations—shrinking weeks of custom work into hours.
-- **Decision support and forecasting:** Machine-learning models that surface anomalies, forecast cash flow, and summarize results on top of your warehouse and ERP data.
+**Background.** Over more than a decade, Amr has implemented and supported enterprise financial and ERP systems for multinational manufacturers — including Valmont Industries, AsteelFlash, QAD, Infor, and Navistar — in both technical and functional roles. That work, viewed through a finance lens, is what BASH brings to smaller businesses. Read the full [professional background and project history](/about/amr/).
 
-**How We Keep It Safe**
+**Education.** Amr holds a **Bachelor of Science in Finance** from Northern Illinois University and a **Master of Science in Information Systems** from the University of Colorado Denver. The combination of finance and information systems shapes how we design technology: not just to work, but to improve financial performance.
 
-- **Guardrails by design:** AI drafts and interprets; the deterministic foundation validates and executes. Compliance-critical steps never depend on a non-deterministic answer.
-- **Full audit trail:** We log the prompt, the inputs, the model version, and the output—so every AI-assisted decision can be reproduced and defended.
-- **No lock-in:** Prompts and models are kept thin and portable, layered over standards-based automation you continue to own.
+**Outside the office.** Based in Denver, Amr enjoys biking, hiking, camping, climbing, and running across Colorado. He is an advocate for workers' rights and consumer protections, and a strong supporter of small businesses.
 
 ---
 
-### Cloud Architecture
+## What we offer
 
-The advent of cloud computing has revolutionized the way businesses operate. The "cloud" has become ubiquitous, offering unparalleled scalability, flexibility, and access to advanced computing resources. However, many businesses are unsure about how to transition their operations to this new paradigm. We are here to bridge that gap.
+We provide end-to-end services across three core areas, from planning and design through implementation and ongoing support.
 
-**Expertise in Major Cloud Providers**
+### Cloud architecture
 
-We exclusively work with cloud technologies and have extensive expertise in the three major providers:
+Cloud computing gives small businesses enterprise capacity on demand, with no large hardware purchase. We help you plan the move and run it well.
 
-- **Amazon Web Services (AWS)**
-- **Google Cloud Platform (GCP)**
-- **Microsoft Azure**
+<div class="text-center my-4">
+  <img src="/assets/images/cld-arch-diagram.png" class="img-fluid rounded-3 shadow-sm" alt="Diagram of a cloud architecture connecting applications, databases, and services" loading="lazy">
+</div>
 
-Our familiarity with these platforms allows us to tailor solutions that best fit your business needs, ensuring optimal performance, security, and cost-efficiency.
+We work across the three major providers — **Amazon Web Services (AWS)**, **Google Cloud Platform (GCP)**, and **Microsoft Azure** — and choose the platform that fits your workload, not ours. We also build configurable **eCommerce** applications integrated with accounting systems such as **QuickBooks**, so orders and finances stay in sync.
 
-### eCommerce and Accounting Integrations
+Cloud work includes:
 
-In addition to cloud infrastructure, we specialize in configurable **eCommerce applications** with integrations to accounting systems such as **QuickBooks**. This integration streamlines operations, enhances customer experiences, and ensures that financial data is accurately captured and reported.
+- Infrastructure planning, design, and implementation
+- Enterprise software configuration and implementation
+- Software development and Application Programming Interface (API) work to connect systems
+- System and database migrations with minimal downtime
+- Database and data-warehouse design
+- Business intelligence and reporting
 
-**Services Offered**
+[Explore cloud architecture →](/services/cloud/)
 
-- **Infrastructure Planning, Design, and Implementation**
+### ERP consulting (technical and functional)
 
-  We work with you to plan and deploy cloud infrastructure that supports your current operations and scales with your growth. Our designs prioritize reliability, security, and efficiency.
+ERP systems integrate finance, operations, supply chain, and more into one platform — and they can be complex to implement well. Our experience spans both the technical build and the functional process design, primarily in manufacturing.
 
-- **Enterprise Software Suite Configuration and Implementation**
+<div class="text-center my-4">
+  <img src="/assets/images/erd.png" class="img-fluid rounded-3 shadow-sm" alt="Entity-relationship diagram showing how ERP data tables connect" loading="lazy">
+</div>
 
-  Our team configures and implements enterprise software solutions, ensuring that applications are seamlessly integrated and optimized for your workflows.
+Systems we work with:
 
-- **Software Development and API Implementation**
+- **QAD Enterprise Edition** (2014, 2016, 2018) and **Mfg/Pro** (eB2, eB2.1)
+- **Infor ERP LN** (formerly Baan IV) and **Infor CloudSuite Industrial** (formerly SyteLine, versions 8 and 9)
+- **Oracle PeopleSoft Financials** (9.2) and **Hyperion Financial Management** (11)
 
-  We develop custom software solutions and implement Application Programming Interfaces (APIs) to connect disparate systems, enhance functionality, and automate processes.
+ERP work includes implementation and configuration, process optimization, training and support, and integration with the rest of your systems.
 
-- **System and Database Migrations**
+[Explore ERP consulting →](/services/erp/)
 
-  We manage the migration of existing systems and databases to the cloud, minimizing downtime and ensuring data integrity throughout the transition.
+### Accounting information systems
 
-- **Database and Data Warehouse Design**
+A dependable accounting system supports compliance, audit-readiness, and clear financial reporting. The right approach depends on your industry, accounting methods, and goals — there is no single template.
 
-  Our experts design databases and data warehouses that support efficient data management, advanced analytics, and business intelligence initiatives.
+Many businesses run on Excel, and for good reason: it is flexible and familiar. Rather than force a rip-and-replace, we often extend the Excel models you already use and connect them to database technology, so you keep the familiarity while gaining control and accuracy.
 
-- **Business Intelligence and Reporting**
+Accounting work includes:
 
-  We implement business intelligence tools and reporting systems that provide actionable insights, support data-driven decision-making, and drive strategic initiatives.
+- System configuration
+- Accounts Payable (AP) automation
+- Chart of accounts design, conversion, or migration
+- Financial modeling for budgeting and forecasting
+- Standard costing management
+- Secure banking interfaces
 
----
-
-### ERP Consulting (Technical/Functional)
-
-Enterprise Resource Planning (ERP) systems are powerful tools that integrate various business processes, including finance, HR, manufacturing, supply chain, services, procurement, and others. However, implementing and managing ERP systems can be complex and resource-intensive.
-
-**Navigating the ERP Landscape**
-
-For many organizations, the mention of ERP brings to mind challenges and complexities. We are here to demystify these systems. Our extensive experience and deep understanding of ERP applications enable us to assist you in harmonizing your systems, aligning them with your business processes, and achieving your strategic goals.
-
-**Experience Across Multiple ERP Systems**
-
-Our team has navigated numerous ERP implementations across various industries, particularly in manufacturing. We provide both technical and functional expertise, guiding you through every step of the implementation process.
-
-**Systems We Work With**
-
-- **QAD Enterprise Edition:** Versions 2014, 2016, 2018
-- **Mfg/Pro:** Versions eB2, eB2.1
-- **Infor ERP LN (formerly Baan IV)**
-- **Infor CloudSuite Industrial (formerly SyteLine):** Versions 8 & 9
-- **Hyperion Financial Management:** Version 11
-- **Oracle PeopleSoft Financials:** Version 9.2
-
-**Services Offered**
-
-- **ERP Implementation and Configuration**
-
-  We assist with the implementation and configuration of ERP systems, customizing them to meet your specific business needs.
-
-- **Process Optimization**
-
-  Our team works to optimize your business processes, ensuring that the ERP system enhances efficiency and productivity.
-
-- **Training and Support**
-
-  We provide comprehensive training and ongoing support to ensure that your team can effectively use and manage the ERP system.
-
-- **Integration with Other Systems**
-
-  We facilitate the integration of the ERP system with other applications, creating a seamless IT environment.
+[Explore finance technology →](/services/fintech/)
 
 ---
 
-### Accounting Information Systems
+## How we work
 
-A robust accounting system is essential for any organization. It supports sustainability, feasibility, and compliance with regulatory requirements. In an increasingly complex regulatory environment, businesses must build failsafe mechanisms to ensure accurate financial reporting and withstand the scrutiny of audits.
+We work closely with each client to understand the business, its goals, and how the team actually operates. Every business is different, so we tailor the approach rather than apply a template. Whether you are migrating to the cloud, implementing an ERP, or modernizing accounting, we aim for solutions that are practical, usable, and aligned with your strategy.
 
-**The Importance of Compliance and Accuracy**
-
-Achieving compliance is not a "one size fits all" solution. It depends on the industry, accounting methods, and specific business needs. We understand the intricacies of financial regulations and the importance of accurate, timely information.
-
-**Evolution of Accounting and Finance Systems**
-
-Throughout our careers, we have witnessed the evolution of accounting and finance from physical bookkeeping methods to complex Excel models capable of processing vast datasets at incredible speeds. Today, modern, multi-dimensional data warehouses and advanced analytical reporting tools have become the norm.
-
-We recognize the challenges businesses face in transitioning from traditional methods to modern systems. Letting go of familiar tools like Excel can be difficult. However, we also understand that Excel remains one of the most common and versatile tools in the business world due to its flexibility and adaptability.
-
-**Leveraging Excel and Modern Technologies**
-
-We aim to advance your organization's capabilities by enhancing your existing Excel models and integrating them with new database technologies. By embedding database functionalities directly into spreadsheets, we help you retain the familiarity of Excel while leveraging the power of modern data management systems.
-
-**Services Offered**
-
-- **System Configurations**
-
-  We tailor accounting systems to meet your specific business requirements, ensuring compliance and efficiency.
-
-- **Accounts Payable (AP) Automation Solutions**
-
-  Implementing automation to streamline AP processes, reduce errors, and increase efficiency.
-
-- **Chart of Accounts Design, Conversion, or Migration**
-
-  Developing and restructuring the chart of accounts to improve financial reporting, compliance, and strategic analysis.
-
-- **Financial Modeling**
-
-  Creating dynamic financial models that support budgeting, forecasting, and strategic planning.
-
-- **Standard Costing Management**
-
-  Implementing standard costing methods to control costs, improve profitability, and enhance decision-making.
-
-- **Banking Interfaces**
-
-  Establishing secure and efficient interfaces with banking systems for seamless financial transactions and cash management.
+Technology should help your team, not get in their way. We keep systems as simple as the problem allows, and we transfer the knowledge — through training and documentation — so your people can run and grow what we build.
 
 ---
 
-## Our Approach
+## Why choose BASH Consulting
 
-At BASH Consulting, we believe in a collaborative, client-centric approach. We work closely with our clients to understand their unique challenges, goals, and organizational culture. Our team is committed to delivering solutions that are not only technologically advanced but also practical, user-friendly, and aligned with your business strategy.
-
-**Customized Solutions for Your Business**
-
-We recognize that every business is different. Therefore, we do not offer one-size-fits-all solutions. Instead, we take the time to understand your specific needs and tailor our services accordingly. Whether you are looking to migrate to the cloud, implement a new ERP system, or enhance your accounting information systems, we have the expertise to deliver solutions that drive results.
-
-**Empowering Your Team**
-
-Technology should serve as an enabler, not a barrier. We focus on simplifying complex systems and providing comprehensive training and support to empower your team. By bridging the gap between technology and business, we help you unlock new opportunities for growth and innovation.
+- **Experience that crosses finance and IT.** More than a decade in finance, accounting, and information systems means we speak both languages.
+- **A practical fit for your business.** We scope work to your needs and budget, with a clear return on investment in mind.
+- **A focus on small businesses.** SMBs are our entire focus — we understand the constraints you work within.
+- **Breadth under one roof.** Cloud, ERP, and accounting systems are designed to work together, not in silos.
+- **A relationship, not a queue.** We build long-term relationships based on trust, transparency, and clear communication.
 
 ---
 
-## Why Choose BASH Consulting
+## Community and values
 
-- **Expertise and Experience**
-
-  With over a decade of experience in finance, accounting, and information systems, we bring a wealth of knowledge and practical insights to every project.
-
-- **Customized Solutions**
-
-  We tailor our services to meet the specific needs of your business, ensuring optimal results and a strong return on investment.
-
-- **Commitment to Small Businesses**
-
-  As strong supporters of small businesses, we are dedicated to helping you succeed in a competitive market. We understand the challenges you face and are passionate about making a positive impact.
-
-- **Holistic Approach**
-
-  We offer a comprehensive suite of services, from cloud architecture to ERP consulting and accounting information systems. Our holistic approach ensures that all aspects of your IT infrastructure work seamlessly together.
-
-- **AI-Layered, Future-Ready Solutions**
-
-  True to our name, we overlay modern AI on a foundation of proven, scriptable automation. You get the speed and accessibility of artificial intelligence without sacrificing the reliability, auditability, and control of deterministic systems—an approach built to last as the technology evolves.
-
-- **Client-Centric Philosophy**
-
-  Your success is our priority. We build long-term relationships based on trust, transparency, and mutual respect. Our goal is to be a trusted partner in your journey toward growth and success.
+Beyond client work, BASH Consulting supports its community. We advocate for workers' rights and consumer protections, and we believe ethical practices build a healthier business environment. By helping small businesses succeed, we contribute to the prosperity of the community around us.
 
 ---
 
-## Community and Values
+## Get in touch
 
-Beyond our professional services, BASH Consulting is deeply committed to supporting the community. We advocate for workers' rights and consumer protections, recognizing the importance of ethical practices in building a sustainable business environment. We believe that by empowering small businesses, we contribute to the overall health and prosperity of our community.
+If you are a small or medium-sized business looking to adopt enterprise-grade technology, streamline operations, and compete more effectively, we would like to help. We start with a discovery conversation to understand your systems and goals before recommending anything.
 
----
-
-## Get in Touch
-
-If you are a small or medium-sized business looking to leverage enterprise-grade technologies, streamline your operations, and gain a competitive edge, **BASH Consulting** is here to help. Let us partner with you on your journey toward growth and success.
-
-### Contact Us Today
-
-Reach out to us to learn more about how our services can be tailored to meet your specific needs. Together, we can navigate the complex technological landscape and unlock new opportunities for your business.
+<a href="/contact/" class="btn btn-primary btn-lg px-4">Book a free consultation</a>
 
 ---
 
-**BASH Consulting**
+**BASH Consulting LLC**  
 Denver, Colorado
 
-**Email:** info@bash-365.com  
-**Phone:** (720) 352-4641  
-**Website:** www.bash-365.com
+**Email:** [info@bashconsultants.com](mailto:info@bashconsultants.com)  
+**Phone:** [(720) 352-4641](tel:+17203524641)  
+**Website:** [bashconsultants.com](https://bashconsultants.com)
 
 ---
 
-At BASH Consulting, we don't just provide IT solutions—we build partnerships that foster growth, innovation, and success. Let's shape the future of your business together.
+## Site credits
 
-
-## Quick Facts
-
-This world was created by {{ site.founder }} and maintained by:
-
-{:table .table .table-striped}
-Name | Profile
----------|----------
-{% for follower in site.maintainers -%}
-  {{ follower.name }} | {{ follower.profile }}
-{% endfor %}
-
-And, most importantly, Powered By:
+This site is built and maintained by {{ site.founder }} and powered by open tools:
 
 {:table .table .table-striped}
 Name | Link
@@ -332,9 +196,3 @@ Name | Link
 {% for power in site.powered_by -%}
 {{ power.name }} | {{ power.url }}
 {% endfor %}
-
-## Contact Information
-
-If you have any questions, comments, or suggestions, please feel free to reach out to us at:
-
-- Email: {{ site.email }}

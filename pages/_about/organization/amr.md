@@ -1,7 +1,7 @@
 ---
 title: Amr
 name: Amr Abdel-Motaleb
-avatar: /assets/images/bamr-avatar.png
+avatar: /assets/images/Amr-Headshot_v2.jpg
 excerpt: IT Wizard, Software Architect, Tech Enthusiast.
 preview: /assets/images/red-rocks.jpg
 location: Denver, CO
