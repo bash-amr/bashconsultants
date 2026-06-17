@@ -14,9 +14,18 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - **`pages/_posts/muses/2025-08-12-innovation-paradox.md`** — Frontmatter updated (author, description, keywords, lastmod, tags normalized); content rewritten for voice and SMB focus.
 - **`pages/_posts/tech/2025-08-12-ai-integration-reality.md`** — Frontmatter updated; content rewritten with honest SMB-first framing on AI implementation.
 - **`pages/_posts/tech/2025-11-19-prompts-are-the-new-command-line.md`** — Frontmatter normalized (author, lastmod, categories/tags as YAML lists); content already updated to SMB voice.
+- **Site-wide content review** — Rewrote `about.md`, `contact.md`, and all service pages (`pages/_services/{cloud,erp,data,dev,fintech,strat}.md`) to comply with `content-style.instructions.md`: removed banned marketing phrases, switched to sentence-case headings and the 8-section service-page structure, defined acronyms on first use, and added inline images with descriptive alt text.
+- **`pages/_services/index.md`** — Rebuilt as a card-based hub linking to all six real service pages (it previously listed generic categories that did not match the site's actual services).
+- **`_data/entity/info.yml`** — Cleaned banned phrases from the About / Founder / Mission copy that feeds the landing page.
+- **Blog posts** — Added a next-step call-to-action to posts that lacked one; normalized `preview:` paths to the `/assets/images/previews/` convention; bumped `lastmod` on edited posts.
 
 ### Removed
 - **`pages/_posts/tech/2025-01-24-bash-consulting-breaking.md`** — Deleted from `tech/`; replaced by the muses rewrite above.
+- **Invented case studies and unverifiable metrics** — Removed fabricated results ("40% cost reduction", "99.9% uptime", "300% revenue increase", "30+ ERP projects", "over 15 years") and overreaching capability claims (e.g., AI/ML clinical decision support, fraud detection) from the service pages, per the "never invent customer wins" rule.
+
+### Fixed
+- **Broken images** — Renamed `assets/images/red-rocks.JPG` → `red-rocks.jpg` so the lowercase reference resolves on case-sensitive production builds; repointed the missing `office-594119.png` `og_image` to `office.jpg` in `_config.yml` and `pages/_about/site/_config.yml`; repointed the missing `bamr-avatar.png` avatar to `Amr-Headshot_v2.jpg`.
+- **Contact-info consistency** — Standardized all customer pages to `bashconsultants.com` / `info@bashconsultants.com` / `(720) 352-4641`; replaced the stale `bash-365.com` details on `about.md` and `contact.md`; fixed the `contact-email: info@consultants.com` typo in `_config.yml` that broke the landing page's "Email Now" button.
 
 ---
 

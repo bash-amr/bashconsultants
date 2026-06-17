@@ -17,7 +17,7 @@ keywords:
 # Rendered as the on-page FAQ and as FAQPage JSON-LD in <head> (theme: jsonld-faq).
 faq_items:
   - question: "What is BASH Consulting?"
-    answer: "BASH Consulting (Bourne Again Solutions) is a Denver-based IT consulting practice that helps small and medium-sized businesses leverage modern technologies — cloud infrastructure, ERP systems, and accounting information systems — that were once reserved for large enterprises."
+    answer: "BASH Consulting (Bourne Again Solutions) is a Denver-based IT consulting practice that helps small and medium-sized businesses adopt modern technologies — cloud infrastructure, ERP systems, and accounting information systems — that were once reserved for large enterprises."
   - question: "Who does BASH Consulting work with?"
     answer: "We focus on small- to medium-sized businesses looking to adopt or extend enterprise-grade technology cost-effectively, from start-ups moving to the cloud to manufacturers harmonizing an ERP rollout."
   - question: "What services does BASH Consulting offer?"

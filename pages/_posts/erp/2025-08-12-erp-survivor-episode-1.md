@@ -3,8 +3,9 @@ title: "ERP Survivor: Office Edition - Episode 1: The Alliance of the Spreadshee
 layout: article
 author: BASH Consulting Team
 description: Reality show-style exploration of ERP implementation dynamics and the classic struggle between spreadsheet loyalists and system advocates.
-preview: /images/previews/erp-survivor-office-edition-episode-1-the-alliance.png
+preview: /assets/images/previews/erp-survivor-office-edition-episode-1-the-alliance.png
 date: 2025-08-12T13:00:00.000Z
+lastmod: 2026-06-15T12:00:00.000Z
 categories:
     - erp
 tags:
@@ -14,7 +15,6 @@ tags:
     - organizational-dynamics
 featured: true
 excerpt: "Welcome to the ultimate reality show: Can a diverse group of office workers survive an ERP implementation without losing their minds or their jobs?"
-lastmod: 2026-01-31T19:41:38.012Z
 ---
 
 ## Previously on ERP Survivor...
@@ -149,3 +149,5 @@ lastmod: 2026-01-31T19:41:38.012Z
 ---
 
 *Stay tuned for Episode 2: "The Great Chart of Accounts Debate" where Linda discovers that the new system doesn't support her 47 different project codes, and Bob learns that "best practices" might not include his legendary "emergency override procedure."*
+
+*Facing your own implementation reality check? See how we [approach ERP work](/services/erp/) — or [start a conversation](/contact/).*

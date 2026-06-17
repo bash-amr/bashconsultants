@@ -1,6 +1,7 @@
 ---
 title: "From Prompts to Pipelines: Agentic Workflows in VS Code"
 description: How a VS Code extension with AI agents turns prompt engineering into an automated command surface for your entire codebase.
+author: Amr Abdel-Motaleb
 date: 2025-11-19T09:00:00.000Z
 categories:
     - tech
@@ -13,7 +14,7 @@ tags:
     - vscode
     - agents
     - automation
-lastmod: 2026-01-31T19:41:38.037Z
+lastmod: 2026-06-15T12:00:00.000Z
 ---
 
 **Prompt engineering was just the beginning. The real power comes when prompts stop being one-off conversations and become reusable, automated workflows that live inside your tools.**
@@ -242,3 +243,5 @@ For BASH Consultants, this is the natural evolution:
 The future of development isn’t just *AI that writes code*.
 
 It’s **AI that respects your design, follows your workflows, and turns your prompts into a programmable, repeatable, and auditable command surface for your entire software lifecycle**—right inside VS Code.
+
+*Want to build workflows like these into your own stack? See how we [approach development work](/services/dev/) — or [start a conversation](/contact/).*
