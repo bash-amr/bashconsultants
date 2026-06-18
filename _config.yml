@@ -56,13 +56,13 @@ url                      : &url https://bashconsultants.com
 public_folder            : "/assets"
 port                     : 4002 # Jekyll Serve Dev port
 dg_port                  : 4001 # TODO: Doppelganger site. Use this if you want to switch between parallel deployments
-og_image                 : '/assets/images/office-594119.png'
+og_image                 : '/assets/images/office.jpg'
 
 ### Owner Information -------------------------------------------------------------
 
 name                     : &name "Amr"
 email                    : "amr@bashconsultants.com"
-contact-email            : "info@consultants.com"
+contact-email            : "info@bashconsultants.com"
 description              : >- # this `->` means to ignore newlines until the next variable
   "Modern day IT Solutions"
 level                    : 'Jedi'

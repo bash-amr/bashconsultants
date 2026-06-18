@@ -1,205 +1,111 @@
 ---
 title: Services
-sub-title: null
-description: Explore our comprehensive services, from cloud solutions to custom software development, designed to enhance your business efficiency and growth.
+sub-title: Cloud, ERP, and accounting systems for small business
+description: BASH Consulting services for Denver SMBs — cloud architecture, ERP, accounting systems, data and BI, custom software, and vendor-neutral IT strategy.
 preview: /assets/images/cld-arch-diagram.png
-snippet: null
-author: null
+snippet: Six focused services — cloud, ERP, finance technology, data and BI, software, and IT strategy — for small and medium-sized businesses.
+author: Amr Abdel-Motaleb
 layout: default
-keywords: []
+keywords:
+  - Denver IT services
+  - cloud architecture
+  - ERP consulting
+  - accounting systems
+  - business intelligence
+  - custom software
 tags:
   - Cloud Services
-  - Custom Software Development
-  - Data Management
   - ERP Solutions
   - Financial Systems
+  - Data Management
+  - Custom Software Development
 categories:
-  - Data Analytics
+  - IT Consulting
   - Development
   - ERP Systems
-  - IT Consulting
-  - Project Management
-lastmod: 2024-05-11T21:38:13.842Z
+  - Data Analytics
+lastmod: 2026-06-15T12:00:00.000Z
 slug: services
 permalink: /services/
-draft: draft
+draft: false
 ---
 
-### AI Solutions & Intelligent Automation
+We help small and medium-sized businesses (SMBs) adopt the same enterprise technology larger companies rely on — without the enterprise price tag or a full-time IT department. Every engagement starts with a free discovery call and a recommendation that fits your budget and timeline.
 
-**Description:**  
-The intelligence layer that overlays everything we do. True to our name—**Bourne Again Solutions Hero**, a nod to the `bash` shell—we treat AI as a solution stack that sits *on top of* proven, scriptable automation rather than replacing it. The foundation stays deterministic and auditable; the AI overlay makes it faster to build and accessible to non-technical staff.
+Pick the area closest to what you're facing. Most projects touch more than one, and we connect them so your systems work together.
 
-**Services:**
+<div class="row row-cols-1 row-cols-md-2 g-4 my-4">
 
-- **AI Overlay Strategy and Readiness**
-  - AI opportunity assessment across existing systems and scripts
-  - Data readiness evaluation for machine learning
-  - Guardrail, governance, and audit-trail design
-- **Prompt-Driven Automation**
-  - Plain-English workflows over deterministic shell and pipeline foundations
-  - Reusable, versioned prompt assets ("prompts are the new command line")
-  - Human-in-the-loop validation for compliance-critical steps
-- **Intelligent Document and Data Processing**
-  - OCR and natural-language extraction (invoices, contracts, email)
-  - Structured output feeding your existing ERP and accounting systems
-- **AI-Assisted Development**
-  - GitHub Copilot and agentic coding workflows
-  - Automated script, test, and documentation generation
-- **Decision Support and Forecasting**
-  - Anomaly detection, cash-flow forecasting, and automated summaries
-  - Machine-learning models layered over your data warehouse
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="/assets/images/cld-arch-diagram.png" class="card-img-top" alt="Cloud architecture diagram" loading="lazy">
+      <div class="card-body">
+        <h2 class="card-title h5">Cloud architecture</h2>
+        <p class="card-text">Plan, migrate, and run your business on AWS, Azure, or GCP — sized and priced for a small business, with clean accounting integration.</p>
+        <a href="/services/cloud/" class="btn btn-outline-primary">Cloud architecture →</a>
+      </div>
+    </div>
+  </div>
 
----
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="/assets/images/erd.png" class="card-img-top" alt="ERP entity-relationship diagram" loading="lazy">
+      <div class="card-body">
+        <h2 class="card-title h5">ERP consulting</h2>
+        <p class="card-text">Technical and functional ERP work for manufacturers — QAD, Infor, and Oracle implementation, integration, upgrades, and support.</p>
+        <a href="/services/erp/" class="btn btn-outline-primary">ERP consulting →</a>
+      </div>
+    </div>
+  </div>
 
-### Cloud Services and Infrastructure
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="/assets/images/spreadsheet.jpg" class="card-img-top" alt="Financial spreadsheet model" loading="lazy">
+      <div class="card-body">
+        <h2 class="card-title h5">Finance technology</h2>
+        <p class="card-text">Accounting systems, accounts-payable automation, chart-of-accounts design, financial modeling, and a month-end close you can trust.</p>
+        <a href="/services/fintech/" class="btn btn-outline-primary">Finance technology →</a>
+      </div>
+    </div>
+  </div>
 
-**Description:**  
-Help businesses leverage cloud technologies for scalability, flexibility, and cost-efficiency. Offer expertise in planning, migrating, and managing cloud infrastructures.
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="/assets/images/network-4430786.jpg" class="card-img-top" alt="Connected data network" loading="lazy">
+      <div class="card-body">
+        <h2 class="card-title h5">Data and business intelligence</h2>
+        <p class="card-text">Data warehousing, reporting, and dashboards — turn your ERP and accounting data into numbers your team can act on.</p>
+        <a href="/services/data/" class="btn btn-outline-primary">Data and BI →</a>
+      </div>
+    </div>
+  </div>
 
-**Services:**
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="/assets/images/architecture-video-rendering.png" class="card-img-top" alt="Software architecture rendering" loading="lazy">
+      <div class="card-body">
+        <h2 class="card-title h5">Software development</h2>
+        <p class="card-text">Custom applications, API integrations, and legacy modernization — connect the systems you run and cut the manual work.</p>
+        <a href="/services/dev/" class="btn btn-outline-primary">Software development →</a>
+      </div>
+    </div>
+  </div>
 
-- **Cloud Architecture Design and Implementation**
-  - Infrastructure Planning and Design
-  - Cloud Migration Services
-  - Expertise in AWS, GCP, Azure
-- **Cloud Infrastructure Management**
-  - Ongoing Monitoring and Optimization
-  - Security and Compliance Management
-- **Cloud Integration Services**
-  - Integration of Cloud Services with Existing Systems
-  - API Development and Implementation
-- **eCommerce Solutions with Cloud Integration**
-  - Configurable eCommerce Applications
-  - Integration with Accounting Systems like QuickBooks
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="/assets/images/network-4851119.jpg" class="card-img-top" alt="Network representing an IT roadmap" loading="lazy">
+      <div class="card-body">
+        <h2 class="card-title h5">IT strategy</h2>
+        <p class="card-text">A vendor-neutral technology roadmap, honest build-vs-buy advice, and project oversight from someone who has delivered the work.</p>
+        <a href="/services/strat/" class="btn btn-outline-primary">IT strategy →</a>
+      </div>
+    </div>
+  </div>
 
----
+</div>
 
-### Enterprise Resource Planning (ERP) Solutions
+## Not sure where to start?
 
-**Description:**  
-Provide comprehensive ERP services to integrate various business processes, improve efficiency, and support strategic goals.
+That's the normal place to begin. Tell us what you're running today and the problems that matter most, and we'll point you to the right starting point.
 
-**Services:**
-
-- **ERP Consulting and Implementation**
-  - ERP System Selection and Evaluation
-  - ERP Configuration and Customization
-  - Experience with QAD, Infor, Hyperion, Oracle PeopleSoft, etc.
-- **ERP Integration and Data Migration**
-  - Integrating ERP with Other Enterprise Systems
-  - System and Database Migrations
-- **Process Optimization**
-  - Business Process Reengineering
-  - Workflow Automation
-- **Training and Support**
-  - User Training Programs
-  - Post-Implementation Support and Maintenance
-
----
-
-### Financial Systems and Accounting Technology
-
-**Description:**  
-Offer specialized services in financial systems to ensure compliance, accuracy, and efficiency in financial reporting and accounting processes.
-
-**Services:**
-
-- **Accounting Information Systems Implementation**
-  - System Configuration and Customization
-  - Integration with ERP and Other Systems
-- **Financial Process Automation**
-  - Accounts Payable (AP) Automation Solutions
-  - Banking Interfaces and Electronic Transactions
-- **Financial Data Management**
-  - Chart of Accounts Design and Migration
-  - Financial Modeling and Analysis
-  - Standard Costing Management
-- **Compliance and Regulatory Consulting**
-  - Ensuring Adherence to Industry Standards
-  - Audit Preparation and Support
-
----
-
-### Data Management and Business Intelligence
-
-**Description:**  
-Enable businesses to harness the power of their data through effective management and insightful analytics.
-
-**Services:**
-
-- **Database Design and Development**
-  - Database Architecture Planning
-  - Data Warehouse Design
-- **Data Migration and Integration**
-  - System and Database Migrations
-  - Data Integration Services
-- **Business Intelligence (BI) Solutions**
-  - BI Tool Implementation (e.g., Power BI, Tableau)
-  - Custom Reporting and Dashboards
-- **Data Analytics and Reporting**
-  - Advanced Analytics for Decision-Making
-  - Key Performance Indicators (KPIs) Monitoring
-
----
-
-### Custom Software Development and Integration
-
-**Description:**  
-Develop tailored software solutions to meet unique business requirements and integrate disparate systems for seamless operations.
-
-**Services:**
-
-- **Custom Application Development**
-  - Software Solutions Built to Specification
-  - Mobile and Web Applications
-- **API Development and Integration**
-  - Connecting Different Software Platforms
-  - Enhancing Functionality of Existing Systems
-- **Legacy Systems Modernization**
-  - Upgrading Outdated Systems
-  - Migration to Modern Platforms
-- **Application Integration Services**
-  - Ensuring Software Interoperability
-  - Streamlining Business Processes
-
----
-
-### IT Strategy and Consulting
-
-**Description:**  
-Provide strategic guidance to align technology initiatives with business objectives, ensuring optimal use of resources and technologies.
-
-**Services:**
-
-- **IT Architecture Planning**
-  - Long-Term IT Roadmap Development
-  - Technology Assessment and Recommendations
-- **Digital Transformation Consulting**
-  - Strategy Development for Digital Initiatives
-  - Change Management Support
-- **IT Project Management**
-  - Oversight of IT Projects from Initiation to Completion
-  - Risk Management and Quality Assurance
-- **IT Training and Capacity Building**
-  - Empowering Teams with Necessary Skills
-  - Ongoing Support and Knowledge Transfer
-
----
-
-### Managed IT Services
-
-**Description:**  
-Offer ongoing IT support to maintain and optimize technology infrastructure, allowing businesses to focus on core activities.
-
-**Services:**
-
-- **IT Support and Maintenance**
-  - Helpdesk Services
-  - Troubleshooting and Issue Resolution
-- **System Monitoring and Optimization**
-  - Performance Monitoring
-  - Proactive Maintenance
-- **Security Services**
-  - Security Assessments
-  - Implementation of Security Protocols
+<a href="/contact/" class="btn btn-primary btn-lg px-4">Book a free consultation</a>
