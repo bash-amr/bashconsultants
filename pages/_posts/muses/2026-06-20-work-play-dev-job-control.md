@@ -21,7 +21,7 @@ keywords:
   - context switching cost
   - running side projects with a toddler
   - time management for technologists
-preview: /assets/images/previews/work-play-dev-job-control.png
+preview: /images/previews/work-play-dev-job-control-for-the-sleep-deprived.png
 featured: false
 excerpt: "You think your life runs `work && play && dev`. You actually try to run `work & play & dev &`, and then a child process forks into the foreground at nice -20. A satirical look at job control for the sleep-deprived."
 ---
