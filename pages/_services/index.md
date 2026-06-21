@@ -1,111 +1,268 @@
 ---
 title: Services
-sub-title: Cloud, ERP, and accounting systems for small business
-description: BASH Consulting services for Denver SMBs — cloud architecture, ERP, accounting systems, data and BI, custom software, and vendor-neutral IT strategy.
+sub-title: Enterprise-grade IT, sized and priced for small business
+description: Denver IT consulting for small and medium businesses — cloud, ERP, finance systems, data and BI, custom software, and IT strategy, all enterprise-grade.
 preview: /assets/images/cld-arch-diagram.png
-snippet: Six focused services — cloud, ERP, finance technology, data and BI, software, and IT strategy — for small and medium-sized businesses.
+snippet: From cloud and ERP to data, custom software, and IT strategy — practical, enterprise-grade technology for Denver small and medium businesses.
 author: Amr Abdel-Motaleb
 layout: default
 keywords:
-  - Denver IT services
-  - cloud architecture
-  - ERP consulting
-  - accounting systems
-  - business intelligence
-  - custom software
+  - Denver IT consulting
+  - small business IT services
+  - cloud migration consultant
+  - ERP implementation
+  - QuickBooks to ERP migration
+  - Power BI consulting
+  - business intelligence consulting
+  - IT strategy consulting
+  - custom software development
+  - managed IT services Denver
 tags:
   - Cloud Services
+  - Custom Software Development
+  - Data Management
   - ERP Solutions
   - Financial Systems
-  - Data Management
-  - Custom Software Development
+  - IT Strategy
+  - Managed IT
 categories:
-  - IT Consulting
+  - Data Analytics
   - Development
   - ERP Systems
-  - Data Analytics
-lastmod: 2026-06-15T12:00:00.000Z
+  - IT Consulting
+  - Project Management
+faq_items:
+  - question: "What services does BASH Consulting offer?"
+    answer: "We cover the full technology stack a growing business needs: AI and intelligent automation, cloud architecture (AWS, Azure, GCP), ERP implementation and support, financial systems and accounting technology, data management and business intelligence, custom software development, IT strategy, and managed IT support. Most engagements combine two or three of these."
+  - question: "How does BASH Consulting price its services?"
+    answer: "Engagements are scoped to the work, not sold as fixed shrink-wrapped packages. We typically start with a discovery conversation, then quote a project range or a monthly retainer for ongoing support. We do not publish fixed prices because the right number depends on your systems, data, and timeline."
+  - question: "We've outgrown QuickBooks. Can you help us move to a real ERP?"
+    answer: "Yes — QuickBooks-to-ERP migrations are core work for us. We help you select the right system, design the chart of accounts and data model, migrate history, and run a phased cutover so month-end close keeps working. A typical mid-market ERP implementation runs roughly 5–7 months across discovery, configuration, testing, and go-live."
+  - question: "Which cloud platforms do you work with?"
+    answer: "We work across the three major providers — Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) — and stay vendor-neutral so the recommendation fits your workload rather than a partnership quota."
+  - question: "Do you only work with manufacturers?"
+    answer: "No. Manufacturing and distribution are a deep specialty, but we also serve professional-services firms, construction and trades, healthcare clinics, multi-location retail, and nonprofits across the Denver metro area."
+  - question: "How long does a typical project take?"
+    answer: "It depends on scope. A back-office automation or reporting project can land in a few weeks; a cloud migration usually runs 1–3 months; a full ERP implementation runs roughly 5–7 months. We work in phases so you see value before the whole project is done."
+  - question: "Can we adopt AI without replacing the systems we already run?"
+    answer: "That is exactly our approach. We treat AI as an overlay on top of deterministic, auditable automation — document processing, forecasting, and AI-assisted development layered over your existing ERP, accounting, and data systems — rather than a rip-and-replace."
+  - question: "Do you provide ongoing support after a project ends?"
+    answer: "Yes. Beyond implementation we offer training, knowledge transfer, and managed IT support — monitoring, maintenance, and a helpdesk — so your team can run and grow the systems rather than depending on us indefinitely."
+  - question: "What ERP and financial systems do you have hands-on experience with?"
+    answer: "ERP: QAD Enterprise Edition and Mfg/Pro, Infor ERP LN (Baan IV) and CloudSuite Industrial (SyteLine), and Oracle PeopleSoft Financials. Financial systems: OneStream, Oracle Hyperion (HFM), BlackLine, Trintech, FloQast, NetSuite, SAP Concur, QuickBooks, Sage, and Microsoft Dynamics — in both technical and functional roles."
+  - question: "Are you local to Denver?"
+    answer: "Yes. BASH Consulting is based in Denver, Colorado, and works with small and medium businesses along the Front Range and remotely across the cloud platforms we support."
+lastmod: 2026-06-21T00:00:00.000Z
 slug: services
 permalink: /services/
 draft: false
 ---
 
-We help small and medium-sized businesses (SMBs) adopt the same enterprise technology larger companies rely on — without the enterprise price tag or a full-time IT department. Every engagement starts with a free discovery call and a recommendation that fits your budget and timeline.
+BASH Consulting brings enterprise-grade technology — the cloud, ERP, financial systems, and data platforms that used to require a corporate IT department — within reach of small and medium businesses across the Denver metro area. We pair a finance-and-IT background with vendor-neutral experience across AWS, Microsoft, Google, and Oracle, so the recommendation you get is the one that fits your business, not a product someone needs to sell.
 
-Pick the area closest to what you're facing. Most projects touch more than one, and we connect them so your systems work together.
+True to our name — BASH, *Bourne Again Solutions Hero*, a nod to the `bash` shell — we build on automation that is deterministic and auditable first, then layer modern tooling (including AI) on top. The foundation stays something you can inspect and trust; the overlay makes it faster to build and easier for your team to run.
 
-<div class="row row-cols-1 row-cols-md-2 g-4 my-4">
+**Where to start:** [AI &amp; automation](#ai-solutions-and-intelligent-automation) · [Cloud](/services/cloud/) · [ERP](/services/erp/) · [Finance Tech](/services/fintech/) · [Data &amp; BI](/services/data/) · [Software Development](/services/dev/) · [IT Strategy](/services/strat/) · [Managed IT](#managed-it-services). Not sure which fits? Tell us what's slowing you down and we'll point you to the right starting place.
 
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="/assets/images/cld-arch-diagram.png" class="card-img-top" alt="Cloud architecture diagram" loading="lazy">
-      <div class="card-body">
-        <h2 class="card-title h5">Cloud architecture</h2>
-        <p class="card-text">Plan, migrate, and run your business on AWS, Azure, or GCP — sized and priced for a small business, with clean accounting integration.</p>
-        <a href="/services/cloud/" class="btn btn-outline-primary">Cloud architecture →</a>
-      </div>
-    </div>
-  </div>
+---
 
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="/assets/images/erd.png" class="card-img-top" alt="ERP entity-relationship diagram" loading="lazy">
-      <div class="card-body">
-        <h2 class="card-title h5">ERP consulting</h2>
-        <p class="card-text">Technical and functional ERP work for manufacturers — QAD, Infor, and Oracle implementation, integration, upgrades, and support.</p>
-        <a href="/services/erp/" class="btn btn-outline-primary">ERP consulting →</a>
-      </div>
-    </div>
-  </div>
+## AI solutions and intelligent automation
 
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="/assets/images/spreadsheet.jpg" class="card-img-top" alt="Financial spreadsheet model" loading="lazy">
-      <div class="card-body">
-        <h2 class="card-title h5">Finance technology</h2>
-        <p class="card-text">Accounting systems, accounts-payable automation, chart-of-accounts design, financial modeling, and a month-end close you can trust.</p>
-        <a href="/services/fintech/" class="btn btn-outline-primary">Finance technology →</a>
-      </div>
-    </div>
-  </div>
+The intelligence layer that sits on top of everything else we do. We treat AI as an overlay on proven, scriptable automation rather than a replacement for it — the foundation stays deterministic and auditable, and the AI makes it faster to build and accessible to non-technical staff.
 
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="/assets/images/network-4430786.jpg" class="card-img-top" alt="Connected data network" loading="lazy">
-      <div class="card-body">
-        <h2 class="card-title h5">Data and business intelligence</h2>
-        <p class="card-text">Data warehousing, reporting, and dashboards — turn your ERP and accounting data into numbers your team can act on.</p>
-        <a href="/services/data/" class="btn btn-outline-primary">Data and BI →</a>
-      </div>
-    </div>
-  </div>
+**What we do:**
 
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="/assets/images/architecture-video-rendering.png" class="card-img-top" alt="Software architecture rendering" loading="lazy">
-      <div class="card-body">
-        <h2 class="card-title h5">Software development</h2>
-        <p class="card-text">Custom applications, API integrations, and legacy modernization — connect the systems you run and cut the manual work.</p>
-        <a href="/services/dev/" class="btn btn-outline-primary">Software development →</a>
-      </div>
-    </div>
-  </div>
+- **AI readiness and guardrails** — assess where AI helps across your current systems and scripts, evaluate whether your data is ready, and design the governance and audit trail so adoption is safe.
+- **Plain-English workflow automation** — turn repetitive back-office steps into prompt-driven workflows running over deterministic foundations, with a human in the loop for compliance-critical decisions.
+- **Document and data processing** — OCR (optical character recognition) and natural-language extraction for invoices, contracts, and email, with structured output that feeds your existing ERP and accounting systems.
+- **Decision support and forecasting** — anomaly detection, cash-flow forecasting, and automated summaries layered over your data warehouse.
 
-  <div class="col">
-    <div class="card h-100 shadow-sm">
-      <img src="/assets/images/network-4851119.jpg" class="card-img-top" alt="Network representing an IT roadmap" loading="lazy">
-      <div class="card-body">
-        <h2 class="card-title h5">IT strategy</h2>
-        <p class="card-text">A vendor-neutral technology roadmap, honest build-vs-buy advice, and project oversight from someone who has delivered the work.</p>
-        <a href="/services/strat/" class="btn btn-outline-primary">IT strategy →</a>
-      </div>
-    </div>
-  </div>
+**Best fit when:** your team is buried in repetitive document handling — an accounting firm keying invoices, a clinic routing intake forms — and you want relief without handing sensitive data to a black box.
 
-</div>
+**How your data is handled:** wherever possible we run models against your own cloud tenant and systems, configure providers so your data isn't used to train their models, and keep a person in the loop for compliance-critical steps. We confirm the exact data-handling terms for each provider as part of the engagement.
 
-## Not sure where to start?
+**Typical outcome:** staff stop re-keying documents by hand, and exceptions surface automatically instead of being found at month-end.
 
-That's the normal place to begin. Tell us what you're running today and the problems that matter most, and we'll point you to the right starting point.
+**Goes with:** [AI-assisted software development](/services/dev/) and [data and BI](/services/data/).
 
-<a href="/contact/" class="btn btn-primary btn-lg px-4">Book a free consultation</a>
+---
+
+## Cloud services and infrastructure
+
+Move off aging on-premises hardware and pay for what you use. We plan, migrate, and manage cloud infrastructure so you get enterprise-grade reliability without the capital outlay of a server room.
+
+**What we do:**
+
+- **Architecture and migration** — assess your current infrastructure, design the target architecture, and run a phased migration that keeps the business running. A typical migration lands in 1–3 months depending on scope.
+- **Infrastructure management** — monitoring, cost optimization and right-sizing, automated scaling, and routine security updates.
+- **Security and compliance** — identity and access management, encryption, backups, and configurations aligned to frameworks like SOC 2 (System and Organization Controls 2), HIPAA (Health Insurance Portability and Accountability Act), and PCI-DSS (Payment Card Industry Data Security Standard).
+- **Integration and eCommerce** — application programming interface (API) development, microservices, and configurable online stores wired into accounting systems such as QuickBooks and Xero.
+
+**Best fit when:** your server is out of warranty, your website buckles under seasonal traffic, or a multi-location retailer needs point-of-sale, eCommerce, and accounting to reconcile automatically.
+
+**Platforms:** Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP); infrastructure-as-code with Terraform, Azure Resource Manager (ARM), and CloudFormation; container orchestration with Kubernetes.
+
+**Typical outcome:** you pay only for the capacity you use, with monitored uptime and no server-room refresh cycle to budget for.
+
+**Full details:** [Cloud architecture and migration](/services/cloud/)
+
+---
+
+## Enterprise resource planning (ERP) solutions
+
+When spreadsheets and QuickBooks can no longer hold the business together, ERP brings your processes onto one system. We have run these implementations in both technical and functional roles, primarily in manufacturing and distribution.
+
+**What we do:**
+
+- **Selection and implementation** — evaluate and configure the right system, with hands-on experience across QAD, Infor, Oracle PeopleSoft, and Hyperion.
+- **Upgrades and migrations** — version advancements and data migrations, including QAD Mfg/Pro to Enterprise Edition moves.
+- **Process optimization** — business process reengineering and workflow automation so the system reflects how you actually operate.
+- **Integration and support** — connect ERP to your other systems, then train your team and support them after go-live.
+
+**Best fit when:** a light-manufacturing or distribution business has outgrown QuickBooks, or month-end consolidation across entities has become a manual fire drill.
+
+**How long:** a full implementation typically runs 5–7 months across discovery (4–6 weeks), design and configuration (8–12 weeks), testing (4–6 weeks), and go-live (2–4 weeks), followed by ongoing support.
+
+**Systems:** QAD Enterprise Edition (2014, 2016, 2018) and Mfg/Pro (eB2, eB2.1); Infor ERP LN (Baan IV) and CloudSuite Industrial (SyteLine) 8 &amp; 9; Oracle PeopleSoft Financials 9.2; Oracle Hyperion Financial Management 11.
+
+**Typical outcome:** one system of record replaces the spreadsheet workarounds, so inventory, orders, and the general ledger reconcile by themselves.
+
+**Full details:** [ERP consulting and implementation](/services/erp/)
+
+---
+
+## Financial systems and accounting technology
+
+A finance background is what sets us apart — we speak general ledger (GL), AR/AP, and month-end close, not just plumbing. We design and automate the financial systems that keep you audit-ready and shorten the close.
+
+**What we do:**
+
+- **Accounting information systems** — selection, configuration, and integration of the systems your finance team lives in.
+- **Financial process automation** — accounts payable (AP) automation, banking and treasury interfaces, and record-to-report close automation.
+- **Financial data management** — chart of accounts design and conversion, standard costing, and financial modeling that extends the Excel models you already trust.
+- **Compliance support** — controls, audit preparation, and reporting aligned to your industry's requirements.
+
+**Best fit when:** your month-end close drags on for two weeks, an auditor flagged your access controls, or you are stitching consolidation together by hand across multiple entities.
+
+**Platforms:** OneStream, Oracle Hyperion (HFM), and Anaplan for enterprise performance management; BlackLine, Trintech, and FloQast for financial close; QAD, NetSuite, and SAP Concur for ERP financials and expense; QuickBooks, Sage, and Microsoft Dynamics for accounting.
+
+**Typical outcome:** month-end close cycles often compress from around ten business days into the three-to-five-day range as manual reconciliation gets automated.
+
+**Full details:** [Finance technology and accounting systems](/services/fintech/)
+
+---
+
+## Data management and business intelligence
+
+Turn the data trapped in your systems into reporting your leadership can act on. We design the data warehouse, build the pipelines, and stand up dashboards your team will actually open.
+
+**What we do:**
+
+- **Data architecture and warehousing** — database and data-warehouse design, including star and snowflake schema modeling.
+- **Data integration and ETL (extract, transform, load)** — pipelines and migrations that consolidate data from your ERP, accounting, and operational systems.
+- **Business intelligence** — Power BI and Tableau implementation, governance, and custom dashboards.
+- **Analytics and reporting** — key performance indicator (KPI) monitoring, financial and manufacturing analytics, and reporting that replaces the manual spreadsheet shuffle.
+
+**Best fit when:** every report is a copy-paste exercise across exports, or two systems disagree on the same number and nobody can say which is right.
+
+**Platforms:** Microsoft Power BI, Tableau, and Qlik; SQL Server Integration Services (SSIS) and Azure Data Factory for ETL; Snowflake, Amazon Redshift, Azure Synapse, and Google BigQuery for warehousing, with SQL Server and Oracle for relational databases.
+
+**Typical outcome:** a report that took a day of copy-paste becomes a dashboard that refreshes on its own overnight.
+
+**Full details:** [Data management and business intelligence](/services/data/)
+
+---
+
+## Custom software development and integration
+
+When off-the-shelf software doesn't fit, we build software that does — and connect the systems you already run so they stop living in silos.
+
+**What we do:**
+
+- **Custom application development** — web and mobile applications built to your specification.
+- **API development and integration** — connect different platforms, extend existing systems, and move data between them in real time.
+- **Legacy modernization** — bring outdated systems onto current platforms without a risky big-bang rewrite.
+- **AI-assisted delivery** — we use AI pair programming (including GitHub Copilot) to write, test, and document code faster, with the same review discipline as hand-written work.
+
+**Best fit when:** a professional-services firm is duct-taping three software-as-a-service (SaaS) tools together with manual exports, or a process critical to your business lives only in one person's spreadsheet.
+
+**Stack:** Python, JavaScript/TypeScript, C#/.NET, and Java; React and Node.js; Flutter and React Native for mobile; TensorFlow and PyTorch where machine learning is warranted.
+
+**Typical outcome:** the manual export-and-reupload step disappears, and a process that lived in one spreadsheet becomes something the whole team can use.
+
+**Full details:** [Custom software development](/services/dev/)
+
+---
+
+## IT strategy and consulting
+
+We plan to work ourselves out of a job. Our strategy work favors building your team's capability over creating a permanent dependency on an outside vendor.
+
+**What we do:**
+
+- **Technology roadmap** — a long-term plan that aligns your technology spend with where the business is going.
+- **Risk management and future-proofing** — assess where you are exposed and design architecture that won't trap you in vendor lock-in.
+- **Skills development and self-service** — train your staff and set up automation so routine tasks no longer require a specialist.
+- **Project oversight** — manage technology projects from kickoff through delivery, including quality assurance and change management.
+
+**Best fit when:** you are about to make a significant technology investment and want a second opinion that isn't tied to a product — a construction firm weighing a field-to-office software purchase, say — or your in-house generalist needs help justifying a project to ownership.
+
+**Typical deliverable:** a 12–18 month technology roadmap with a prioritized investment sequence and a one-page summary your ownership or board can act on.
+
+**Full details:** [IT strategy and planning](/services/strat/)
+
+---
+
+## Managed IT services
+
+Keep the technology running so your team can focus on the business. We provide ongoing support that scales up only as much as you need.
+
+**What we do:**
+
+- **Support and maintenance** — helpdesk, troubleshooting, and issue resolution.
+- **Monitoring and optimization** — performance monitoring and proactive maintenance that catches problems before they cause downtime.
+- **Security services** — security assessments and implementation of the protections your compliance posture requires.
+
+**Best fit when:** you have no in-house IT, or a one-person team that needs backup — for example, a multi-location retailer that needs after-hours point-of-sale (POS) coverage, or a clinic that needs HIPAA-aligned monitoring.
+
+**Coverage:** remote monitoring and management (RMM), patching, endpoint security, and backup verification, with response-window targets agreed up front.
+
+**Typical outcome:** problems get caught and resolved before they become downtime, with a target response of one business hour for priority issues.
+
+---
+
+## How we work
+
+Every engagement follows the same simple arc, scaled to the size of the project:
+
+1. **Discovery** — we learn your systems, data, and goals before recommending anything. You leave the first conversation with a clearer picture whether or not you hire us.
+2. **Plan** — a scoped proposal with a timeline, a cost range, and the outcomes you should expect.
+3. **Deliver** — phased implementation so you see value early and the business keeps running throughout.
+4. **Support and transfer** — training and knowledge transfer so your team can run the system, with ongoing support available if you want it.
+
+## Why BASH Consulting
+
+- **Finance plus IT.** Founder Amr Abdel-Motaleb holds a BS in Finance and an MS in Information Systems, so we understand the month-end close and the audit, not just the servers.
+- **Vendor-neutral.** We are not resellers. Our advice spans AWS, Azure, and GCP, and the Microsoft, Google, and Oracle stacks, chosen on fit.
+- **Built for the mid-market jump.** We specialize in the move from small-business tools to enterprise-grade systems — including QuickBooks-to-ERP migrations — without the prohibitive capital cost.
+- **Local.** A Denver-based practice where you deal with a real person, not a ticket queue.
+
+## Frequently asked questions
+
+**How do you price your services?**
+Engagements are scoped to the work, not sold as fixed packages. We start with a discovery conversation, then quote a project range or a monthly retainer for ongoing support. We don't publish fixed prices because the right number depends on your systems, data, and timeline.
+
+**Do you only work with manufacturers?**
+No. Manufacturing and distribution are a deep specialty, but we also serve professional-services firms, construction and trades, healthcare clinics, multi-location retail, and nonprofits.
+
+**Can we adopt AI without replacing the systems we already run?**
+Yes — that's our whole approach. We layer AI on top of deterministic, auditable automation rather than ripping out what works.
+
+**Do you provide support after a project ends?**
+Yes. We offer training, knowledge transfer, and managed IT support so your team can run and grow the systems themselves.
+
+## Get started
+
+Tell us what's slowing your business down and we'll recommend where to start — no obligation. Reach us at [info@bashconsultants.com](mailto:info@bashconsultants.com) or [720-352-4641](tel:+17203524641).
+
+[Schedule a consultation](/contact/)
