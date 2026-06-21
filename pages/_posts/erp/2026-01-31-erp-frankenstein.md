@@ -2,7 +2,7 @@
 title: "Frankenstein's ERP: The Hidden Horror of Legacy Fragmentation in a Vendor-Cloud World"
 description: An exposé of the absurd IT nightmares created by fragmented legacy ERP systems as vendors sprint to the cloud with AI bells and whistles.
 date: 2026-01-31T05:58:24.740Z
-preview: /assets/images/previews/frankenstein-s-erp-the-hidden-horror-of-legacy-fra.png
+preview: /images/previews/frankenstein-s-erp-the-hidden-horror-of-legacy-fra.png
 draft: false
 breaking: true
 featured: true
@@ -35,7 +35,7 @@ keywords:
         - cloud migration reality
         - technical debt management
         - Progress OpenEdge
-lastmod: 2026-01-31T19:22:40.514Z
+lastmod: 2026-06-15T12:00:00.000Z
 slug: frankenstein-erp-legacy-fragmentation
 permalink: /news/erp/frankenstein-erp-legacy-fragmentation/
 attachments: ""
@@ -154,3 +154,5 @@ Until you decide to write a new joke.
 ---
 
 *This piece is based on real patterns observed in legacy QAD/Infor deployments. Any resemblance to your actual ERP system is purely coincidental... probably.*
+
+*Stitching together your own ERP monster? See how we [approach ERP work](/services/erp/) — or [start a conversation](/contact/).*

@@ -3,8 +3,9 @@ title: "The Great Remote Work Experiment: Three Years Later, What Actually Worke
 layout: article
 author: BASH Consulting Team
 description: "An honest analysis of corporate remote work initiatives, separating lasting changes from temporary adjustments in the post-pandemic business landscape."
-preview: /images/previews/the-great-remote-work-experiment-three-years-later.png
+preview: /assets/images/previews/the-great-remote-work-experiment-three-years-later.png
 date: 2025-08-12T12:00:00.000Z
+lastmod: 2026-06-15T12:00:00.000Z
 categories: [corp]
 tags: [remote-work, corporate-strategy, organizational-change, workplace-evolution]
 featured: true
@@ -179,3 +180,5 @@ As we move forward, the question isn't whether remote work will continue—it's 
 ---
 
 *The remote work revolution isn't ending—it's maturing. The companies that recognize this shift and adapt strategically will have significant advantages in the next phase of business evolution.*
+
+*Rethinking your own hybrid policy? See how we [approach technology and operations strategy](/services/strat/) — or [start a conversation](/contact/).*
