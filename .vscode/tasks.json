@@ -49,20 +49,31 @@
         "showReuseMessage": false,
         "clear": true
       },
-      "problemMatcher": {
-        "owner": "jekyll",
-        "fileLocation": ["relative", "${workspaceFolder}"],
-        "pattern": {
-          "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(Liquid (?:Warning|Exception)|Error|Warning):\\s+(.*)$",
-          "severity": 1,
-          "message": 2
+      "problemMatcher": [
+        {
+          "owner": "jekyll",
+          "fileLocation": ["relative", "${workspaceFolder}"],
+          "severity": "error",
+          "pattern": {
+            "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(?:Liquid )?(?:Exception|Error):\\s+(.*)$",
+            "message": 1
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "(Regenerating|Generating\\.\\.\\.|Auto-regeneration)",
+            "endsPattern": "(done in [\\d.]+ seconds|Server running)"
+          }
         },
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": "(Regenerating|Generating\\.\\.\\.|Auto-regeneration)",
-          "endsPattern": "(done in [\\d.]+ seconds|Server running)"
+        {
+          "owner": "jekyll",
+          "fileLocation": ["relative", "${workspaceFolder}"],
+          "severity": "warning",
+          "pattern": {
+            "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(?:Liquid )?Warning:\\s+(.*)$",
+            "message": 1
+          }
         }
-      },
+      ],
       "detail": "Start Jekyll site via Docker Compose (foreground)"
     },
 
@@ -139,20 +150,31 @@
         "clear": true
       },
       "isBackground": true,
-      "problemMatcher": {
-        "owner": "jekyll",
-        "fileLocation": ["relative", "${workspaceFolder}"],
-        "pattern": {
-          "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(Liquid (?:Warning|Exception)|Error|Warning):\\s+(.*)$",
-          "severity": 1,
-          "message": 2
+      "problemMatcher": [
+        {
+          "owner": "jekyll",
+          "fileLocation": ["relative", "${workspaceFolder}"],
+          "severity": "error",
+          "pattern": {
+            "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(?:Liquid )?(?:Exception|Error):\\s+(.*)$",
+            "message": 1
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "(Regenerating|Generating\\.\\.\\.|Auto-regeneration)",
+            "endsPattern": "(done in [\\d.]+ seconds|Server running)"
+          }
         },
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": "(Regenerating|Generating\\.\\.\\.|Auto-regeneration)",
-          "endsPattern": "(done in [\\d.]+ seconds|Server running)"
+        {
+          "owner": "jekyll",
+          "fileLocation": ["relative", "${workspaceFolder}"],
+          "severity": "warning",
+          "pattern": {
+            "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(?:Liquid )?Warning:\\s+(.*)$",
+            "message": 1
+          }
         }
-      },
+      ],
       "detail": "Follow Jekyll container logs in real-time"
     },
 
@@ -175,20 +197,31 @@
         "showReuseMessage": false,
         "clear": true
       },
-      "problemMatcher": {
-        "owner": "jekyll",
-        "fileLocation": ["relative", "${workspaceFolder}"],
-        "pattern": {
-          "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(Liquid (?:Warning|Exception)|Error|Warning):\\s+(.*)$",
-          "severity": 1,
-          "message": 2
+      "problemMatcher": [
+        {
+          "owner": "jekyll",
+          "fileLocation": ["relative", "${workspaceFolder}"],
+          "severity": "error",
+          "pattern": {
+            "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(?:Liquid )?(?:Exception|Error):\\s+(.*)$",
+            "message": 1
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "(Regenerating|Generating\\.\\.\\.|Auto-regeneration)",
+            "endsPattern": "(done in [\\d.]+ seconds|Server running)"
+          }
         },
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": "(Regenerating|Generating\\.\\.\\.|Auto-regeneration)",
-          "endsPattern": "(done in [\\d.]+ seconds|Server running)"
+        {
+          "owner": "jekyll",
+          "fileLocation": ["relative", "${workspaceFolder}"],
+          "severity": "warning",
+          "pattern": {
+            "regexp": "^(?:[\\w.-]+\\s*\\|\\s*)?\\s*(?:Liquid )?Warning:\\s+(.*)$",
+            "message": 1
+          }
         }
-      },
+      ],
       "detail": "Start Jekyll site locally with live reload on port 4042"
     },
 
