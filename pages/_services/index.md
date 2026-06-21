@@ -79,7 +79,7 @@ The intelligence layer that sits on top of everything else we do. We treat AI as
 
 **Best fit when:** your team is buried in repetitive document handling — an accounting firm keying invoices, a clinic routing intake forms — and you want relief without handing sensitive data to a black box.
 
-**How your data is handled:** models run against your own cloud tenant and systems; we don't hand your data to third parties to train their models, and compliance-critical steps keep a person in the loop.
+**How your data is handled:** wherever possible we run models against your own cloud tenant and systems, configure providers so your data isn't used to train their models, and keep a person in the loop for compliance-critical steps. We confirm the exact data-handling terms for each provider as part of the engagement.
 
 **Typical outcome:** staff stop re-keying documents by hand, and exceptions surface automatically instead of being found at month-end.
 
@@ -95,7 +95,7 @@ Move off aging on-premises hardware and pay for what you use. We plan, migrate, 
 
 - **Architecture and migration** — assess your current infrastructure, design the target architecture, and run a phased migration that keeps the business running. A typical migration lands in 1–3 months depending on scope.
 - **Infrastructure management** — monitoring, cost optimization and right-sizing, automated scaling, and routine security updates.
-- **Security and compliance** — identity and access management, encryption, backups, and configurations aligned to frameworks like SOC 2, HIPAA, and PCI-DSS.
+- **Security and compliance** — identity and access management, encryption, backups, and configurations aligned to frameworks like SOC 2 (System and Organization Controls 2), HIPAA (Health Insurance Portability and Accountability Act), and PCI-DSS (Payment Card Industry Data Security Standard).
 - **Integration and eCommerce** — application programming interface (API) development, microservices, and configurable online stores wired into accounting systems such as QuickBooks and Xero.
 
 **Best fit when:** your server is out of warranty, your website buckles under seasonal traffic, or a multi-location retailer needs point-of-sale, eCommerce, and accounting to reconcile automatically.
@@ -263,6 +263,6 @@ Yes. We offer training, knowledge transfer, and managed IT support so your team 
 
 ## Get started
 
-Tell us what's slowing your business down and we'll recommend where to start — no obligation. Reach us at [info@bashconsultants.com](mailto:info@bashconsultants.com) or 720-352-4641.
+Tell us what's slowing your business down and we'll recommend where to start — no obligation. Reach us at [info@bashconsultants.com](mailto:info@bashconsultants.com) or [720-352-4641](tel:+17203524641).
 
 [Schedule a consultation](/contact/)
