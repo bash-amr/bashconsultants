@@ -231,6 +231,53 @@
       },
       "problemMatcher": [],
       "detail": "Update Jekyll dependencies in Docker container"
+    },
+
+    // ==========================================
+    // AI PREVIEW IMAGE GENERATOR (zer0-mistakes)
+    // ==========================================
+    {
+      "label": "🖼️ Preview Images: List Missing",
+      "type": "shell",
+      "command": "./scripts/generate-preview-images.sh",
+      "args": ["--list-missing"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "test",
+      "problemMatcher": [],
+      "detail": "List posts/docs missing a preview image (no API calls)"
+    },
+
+    {
+      "label": "🖼️ Preview Images: Dry Run",
+      "type": "shell",
+      "command": "./scripts/generate-preview-images.sh",
+      "args": ["--dry-run", "--verbose"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "test",
+      "problemMatcher": [],
+      "detail": "Show what would be generated, including prompts (no API spend)"
+    },
+
+    {
+      "label": "🖼️ Preview Images: Generate for Posts",
+      "type": "shell",
+      "command": "./scripts/generate-preview-images.sh",
+      "args": ["--collection", "posts", "--verbose"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Generate previews for posts via OpenAI gpt-image-2 (costs API credits)"
+    },
+
+    {
+      "label": "🖼️ Preview Images: Generate All",
+      "type": "shell",
+      "command": "./scripts/generate-preview-images.sh",
+      "args": ["--verbose"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Generate previews for all configured collections (costs API credits)"
     }
   ]
 }
