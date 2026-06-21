@@ -1,9 +1,15 @@
 services:
 
   jekyll:
-    image: jekyll/jekyll:latest
-    platform: linux/amd64
-    command: bash -c "bundle install && jekyll serve --watch --force_polling --port 4042 --config '_config.yml,_config_dev.yml'"
+    # NOTE: jekyll/jekyll:latest ships Ruby 3.1.1, but jekyll-theme-zer0 requires
+    # Ruby >= 3.2 (see jekyll-theme-zer0.gemspec). The official ruby image provides
+    # a new enough Ruby AND a native arm64 build (no slow amd64 emulation on Apple
+    # Silicon). jekyll is installed from the Gemfile, so it must be run via bundle exec.
+    image: ruby:3.3
+    # --livereload-port 35730 is set explicitly: Jekyll ignores `livereload_port`
+    # from _config_dev.yml and otherwise falls back to 35729 (which both mismatches
+    # the published 35730 below and collides with the zer0-mistakes container).
+    command: bash -c "bundle install && bundle exec jekyll serve --watch --force_polling --host 0.0.0.0 --port 4042 --livereload --livereload-port 35730 --config '_config.yml,_config_dev.yml'"
 
     volumes:
       - ./:/app
