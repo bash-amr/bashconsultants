@@ -33,9 +33,9 @@ remote_theme             : "bamr87/zer0-mistakes@v1.26.0"
 
 ## Github Information
 github_user              : &github_user "bamr87"
-repository_name          : &github_repository "bashconsultants"
+repository_name          : &github_repository "bash-365.com"
 repository               : "bamr87/bashconsultants" # GitHub username/repo-name
-local_repo               : &local_repo "bashconsultants"
+local_repo               : &local_repo "bash-365.com"
 branch                   : &branch "main"
 repo_map                 : "/sitemap/"
 portfolio                : &portfolio [*github_user, '.', 'github.io']
@@ -54,7 +54,7 @@ domain                   : &domain "github"
 domain_ext               : &domain_ext "io"
 baseurl                  : &baseurl "" # the subpath of your site, e.g. /blog - Use this if you want this whole repo to be a domain branch
 url_test                 : &url_test [ 'https', '://', *github_user, '.', *domain, '.', *domain_ext ] # the base hostname & protocol for your site, e.g. http://example.com
-url                      : &url https://bashconsultants.com
+url                      : &url https://bash-365.com
 public_folder            : "/assets"
 port                     : 4002 # Jekyll Serve Dev port
 dg_port                  : 4001 # TODO: Doppelganger site. Use this if you want to switch between parallel deployments
